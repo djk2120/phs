@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 SEP 2018 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 SEP 2018 18:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**james.tex
-(./james.tex
+**phs.tex
+(./phs.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./agujournal.cls
@@ -417,17 +417,14 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 \refchangenumber=\count114
 \listchangenum=\count115
-) (./james.aux
-
-LaTeX Warning: Label `eq:fwphs' multiply defined.
-
 )
-\openout1 = `james.aux'.
+No file phs.aux.
+\openout1 = `phs.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 5.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 5.
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/omlntxmi.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 5.
@@ -818,6 +815,36 @@ Package natbib Warning: Citation `fisher2007' on page 3 undefined on input line
  87.
 
 
+LaTeX Warning: Reference `sect:fwsms' on page 3 undefined on input line 102.
+
+
+LaTeX Warning: Reference `sect:fwphs' on page 3 undefined on input line 102.
+
+
+LaTeX Warning: Reference `sect:smsrwu' on page 3 undefined on input line 102.
+
+
+LaTeX Warning: Reference `sect:phsrwu' on page 3 undefined on input line 102.
+
+
+LaTeX Warning: Reference `sect:gs' on page 3 undefined on input line 102.
+
+
+LaTeX Warning: Reference `sect:wsf' on page 3 undefined on input line 102.
+
+
+LaTeX Warning: Reference `sect:sms' on page 3 undefined on input line 102.
+
+
+LaTeX Warning: Reference `sect:phs' on page 3 undefined on input line 102.
+
+
+Overfull \hbox (0.67503pt too wide) in paragraph at lines 102--103
+\T1/ntxtlf/m/n/10 to com-pare the new pa-ram-e-ter-i-za-tion with the cor-re-sp
+ond-ing pa-ram-e-ter-i-za-tion from CLM4.5. 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
@@ -828,6 +855,9 @@ Package natbib Warning: Citation `medlyn2011' on page 4 undefined on input line
 
 Package natbib Warning: Citation `manzoni2013b' on page 4 undefined on input li
 ne 122.
+
+
+LaTeX Warning: Reference `sect:wsf' on page 4 undefined on input line 123.
 
 
 Package natbib Warning: Citation `bonan2011' on page 4 undefined on input line 
@@ -947,6 +977,12 @@ Package natbib Warning: Citation `oleson2013' on page 5 undefined on input line
 
 [5]
 
+LaTeX Warning: Reference `eq:btrwu' on page 6 undefined on input line 217.
+
+
+LaTeX Warning: Reference `sect:demand' on page 6 undefined on input line 243.
+
+
 Package natbib Warning: Citation `anderegg2017' on page 6 undefined on input li
 ne 259.
 
@@ -974,7 +1010,14 @@ Package natbib Warning: Citation `zhou2013' on page 6 undefined on input line 2
 Package natbib Warning: Citation `williams2013' on page 6 undefined on input li
 ne 265.
 
-[6] <figs/circuit.pdf, id=39, 206.7725pt x 312.16624pt>
+
+LaTeX Warning: Reference `sect:vwp' on page 6 undefined on input line 271.
+
+[6]
+
+LaTeX Warning: Reference `circuit' on page 7 undefined on input line 288.
+
+<figs/circuit.pdf, id=39, 206.7725pt x 312.16624pt>
 File: figs/circuit.pdf Graphic file (type pdf)
  <use figs/circuit.pdf>
 Package pdftex.def Info: figs/circuit.pdf used on input line 295.
@@ -994,6 +1037,9 @@ Package natbib Warning: Citation `sperry2015' on page 7 undefined on input line
  302.
 
 
+LaTeX Warning: Reference `circuit' on page 7 undefined on input line 303.
+
+
 Package natbib Warning: Citation `williams2001' on page 7 undefined on input li
 ne 304.
 
@@ -1001,10 +1047,10 @@ ne 304.
 Package natbib Warning: Citation `williams1996' on page 7 undefined on input li
 ne 305.
 
+[7 <./figs/circuit.pdf>]
 
-Underfull \vbox (badness 2894) has occurred while \output is active []
+LaTeX Warning: Reference `eq:darcy' on page 8 undefined on input line 314.
 
- [7 <./figs/circuit.pdf>]
 
 Package natbib Warning: Citation `sperry2015' on page 8 undefined on input line
  323.
@@ -1062,6 +1108,10 @@ Package natbib Warning: Citation `anderegg2015b' on page 8 undefined on input l
 ine 343.
 
 
+LaTeX Warning: Reference `eq:vulnerability' on page 8 undefined on input line 3
+45.
+
+
 Package natbib Warning: Citation `williams2001' on page 8 undefined on input li
 ne 347.
 
@@ -1078,8 +1128,17 @@ Package natbib Warning: Citation `clapp1978' on page 8 undefined on input line
 348.
 
 
+LaTeX Warning: Reference `sect:gs' on page 8 undefined on input line 355.
+
+
 Package natbib Warning: Citation `klein2014' on page 8 undefined on input line 
 356.
+
+
+LaTeX Warning: Reference `eq:d1' on page 8 undefined on input line 371.
+
+
+LaTeX Warning: Reference `eq:d2' on page 8 undefined on input line 371.
 
 [8]
 Overfull \hbox (16.99501pt too wide) in paragraph at lines 389--391
@@ -1111,6 +1170,12 @@ el-op-ment ver-sion r270, www.github.com/ESCOMP/ctsm/releases/tag/clm4_5_18_r27
 Package natbib Warning: Citation `fisher2008' on page 10 undefined on input lin
 e 484.
 
+
+LaTeX Warning: Reference `supp:sm' on page 10 undefined on input line 484.
+
+
+LaTeX Warning: Reference `ens' on page 10 undefined on input line 485.
+
 <figs/roots.pdf, id=83, 289.08pt x 216.81pt>
 File: figs/roots.pdf Graphic file (type pdf)
  <use figs/roots.pdf>
@@ -1120,7 +1185,31 @@ Package pdftex.def Info: figs/roots.pdf used on input line 490.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: Reference `fig:t' on page 10 undefined on input line 506.
+
+
+LaTeX Warning: Reference `fig:t2' on page 10 undefined on input line 508.
+
+
+LaTeX Warning: Reference `sect:smt' on page 10 undefined on input line 510.
+
 [10]
+
+LaTeX Warning: Reference `fig:t' on page 11 undefined on input line 513.
+
+
+LaTeX Warning: Reference `sect:stress' on page 11 undefined on input line 514.
+
+
+LaTeX Warning: Reference `fig:t' on page 11 undefined on input line 518.
+
+
+LaTeX Warning: Reference `fig:t' on page 11 undefined on input line 519.
+
+
+LaTeX Warning: Reference `fig:sm2' on page 11 undefined on input line 521.
+
 
 Package natbib Warning: Citation `restrepo2017' on page 11 undefined on input l
 ine 522.
@@ -1129,19 +1218,62 @@ ine 522.
 Package natbib Warning: Citation `powell2013' on page 11 undefined on input lin
 e 522.
 
+
+LaTeX Warning: Reference `fig:sm2' on page 11 undefined on input line 528.
+
+
+LaTeX Warning: Reference `fig:sm2' on page 11 undefined on input line 531.
+
+
+LaTeX Warning: Reference `supp:sm2' on page 11 undefined on input line 531.
+
+
+LaTeX Warning: Reference `fig:sm2' on page 11 undefined on input line 533.
+
 [11 <./figs/roots.pdf>]
+
+LaTeX Warning: Reference `supp:sm2' on page 12 undefined on input line 535.
+
+
+LaTeX Warning: Reference `roots' on page 12 undefined on input line 536.
+
+
+LaTeX Warning: Reference `fig:sm2' on page 12 undefined on input line 538.
+
+
+LaTeX Warning: Reference `fig:sm2' on page 12 undefined on input line 540.
+
+
+LaTeX Warning: Reference `fig:sm2' on page 12 undefined on input line 541.
+
+
+LaTeX Warning: Reference `supp:sm2' on page 12 undefined on input line 541.
+
+
 Overfull \hbox (5.51501pt too wide) in paragraph at lines 535--542
 []\T1/ntxtlf/m/n/10 We high-light the soil mois-ture at 50 cm depth, but sim-i-
 lar pat-terns are ob-served through- 
  []
 
 
+LaTeX Warning: Reference `fig:vwp' on page 12 undefined on input line 546.
+
+
+LaTeX Warning: Reference `fig:vwp' on page 12 undefined on input line 548.
+
+
 Package natbib Warning: Citation `simonin2015' on page 12 undefined on input li
 ne 549.
 
 
+LaTeX Warning: Reference `fig:vwp' on page 12 undefined on input line 551.
+
+
 Package natbib Warning: Citation `fisher2006' on page 12 undefined on input lin
 e 553.
+
+
+LaTeX Warning: Reference `fig:vwp' on page 12 undefined on input line 557.
 
 
 Package natbib Warning: Citation `fisher2006' on page 12 undefined on input lin
@@ -1156,11 +1288,45 @@ Package natbib Warning: Citation `fisher2006' on page 12 undefined on input lin
 e 561.
 
 
+LaTeX Warning: Reference `fig:stress1' on page 12 undefined on input line 567.
+
+
+LaTeX Warning: Reference `fig:vwp' on page 12 undefined on input line 567.
+
+
+LaTeX Warning: Reference `fig:stress1' on page 12 undefined on input line 568.
+
+
+LaTeX Warning: Reference `supp:fpsn' on page 12 undefined on input line 569.
+
+
+LaTeX Warning: Reference `bt:1' on page 12 undefined on input line 571.
+
+
+LaTeX Warning: Reference `eq:fwphs' on page 12 undefined on input line 572.
+
+
+LaTeX Warning: Reference `fig:stress2' on page 12 undefined on input line 573.
+
+
+LaTeX Warning: Reference `fig:stress2' on page 12 undefined on input line 574.
+
+
+LaTeX Warning: Reference `fig:stress2' on page 12 undefined on input line 575.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 9.0pt on input line 578.
+
+
+LaTeX Warning: Reference `fig:stress2' on page 13 undefined on input line 578.
+
+
+LaTeX Warning: Reference `fig:stress2' on page 13 undefined on input line 578.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 578--578
 []\T1/ntxtlf/b/n/9 Table 2. \T1/ntxtlf/m/n/9 Root-zone soil po-ten-tial $[]$ (M
@@ -1174,8 +1340,23 @@ ighted soil po-ten-tial.
  []
 
 
+LaTeX Warning: Reference `fig:gpp' on page 13 undefined on input line 597.
+
+
+LaTeX Warning: Reference `fig:gpp' on page 13 undefined on input line 601.
+
+
+LaTeX Warning: Reference `fig:gpp' on page 13 undefined on input line 602.
+
+
 Package natbib Warning: Citation `restrepo2017' on page 13 undefined on input l
 ine 604.
+
+
+LaTeX Warning: Reference `sect:stress' on page 13 undefined on input line 608.
+
+
+LaTeX Warning: Reference `sect:stress' on page 13 undefined on input line 611.
 
 
 Package natbib Warning: Citation `cai2018' on page 13 undefined on input line 6
@@ -1186,13 +1367,58 @@ Package natbib Warning: Citation `warren2015' on page 13 undefined on input lin
 e 615.
 
 
+LaTeX Warning: Reference `fig:sm' on page 13 undefined on input line 616.
+
+
+LaTeX Warning: Reference `supp:sm' on page 13 undefined on input line 616.
+
+
+LaTeX Warning: Reference `results:sm' on page 13 undefined on input line 618.
+
+
+LaTeX Warning: Reference `fig:sm2' on page 13 undefined on input line 618.
+
+
+LaTeX Warning: Reference `sect:supply' on page 13 undefined on input line 620.
+
+
+LaTeX Warning: Reference `supp:cond' on page 13 undefined on input line 621.
+
+
 Package natbib Warning: Citation `brooks1964' on page 13 undefined on input lin
 e 622.
+
+
+LaTeX Warning: Reference `fig:rwu' on page 13 undefined on input line 625.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
+
+LaTeX Warning: Reference `fig:t2' on page 14 undefined on input line 628.
+
+
+LaTeX Warning: Reference `fig:sm' on page 14 undefined on input line 630.
+
+
+LaTeX Warning: Reference `fig:qdry' on page 14 undefined on input line 631.
+
+
+LaTeX Warning: Reference `fig:qdry' on page 14 undefined on input line 632.
+
+
+LaTeX Warning: Reference `eq:btrwu' on page 14 undefined on input line 634.
+
+
+LaTeX Warning: Reference `supp:cond' on page 14 undefined on input line 636.
+
+
+LaTeX Warning: Reference `fig:sm2' on page 14 undefined on input line 636.
+
+
+LaTeX Warning: Reference `fig:hr' on page 14 undefined on input line 641.
+
 
 Package natbib Warning: Citation `jackson2000' on page 14 undefined on input li
 ne 642.
@@ -1210,12 +1436,63 @@ Package natbib Warning: Citation `burgess1998' on page 14 undefined on input li
 ne 642.
 
 
+LaTeX Warning: Reference `supp:hr' on page 14 undefined on input line 643.
+
+
+LaTeX Warning: Reference `sect:hr' on page 14 undefined on input line 645.
+
+
+LaTeX Warning: Reference `supp:cool' on page 14 undefined on input line 649.
+
+
+LaTeX Warning: Reference `supp:cool' on page 14 undefined on input line 650.
+
+
+LaTeX Warning: Reference `fig:cool' on page 14 undefined on input line 651.
+
+
+LaTeX Warning: Reference `supp:cool' on page 14 undefined on input line 653.
+
+
+LaTeX Warning: Reference `fig:cool' on page 14 undefined on input line 654.
+
+
+LaTeX Warning: Reference `fig:cool' on page 14 undefined on input line 655.
+
+
+LaTeX Warning: Reference `circuit' on page 14 undefined on input line 662.
+
+
+LaTeX Warning: Reference `fig:vwp' on page 14 undefined on input line 665.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
 
 Package natbib Warning: Citation `fisher2007' on page 15 undefined on input lin
 e 668.
+
+
+LaTeX Warning: Reference `sect:obs' on page 15 undefined on input line 669.
+
+
+LaTeX Warning: Reference `fig:t' on page 15 undefined on input line 669.
+
+
+LaTeX Warning: Reference `fig:sm2' on page 15 undefined on input line 669.
+
+
+LaTeX Warning: Reference `sect:smpt' on page 15 undefined on input line 670.
+
+
+LaTeX Warning: Reference `sect:wsf' on page 15 undefined on input line 679.
+
+
+LaTeX Warning: Reference `fig:stress1' on page 15 undefined on input line 681.
+
+
+LaTeX Warning: Reference `fig:gpp' on page 15 undefined on input line 681.
 
 
 Package natbib Warning: Citation `sperry2017' on page 15 undefined on input lin
@@ -1228,6 +1505,12 @@ ne 685.
 
 Package natbib Warning: Citation `tyree1989' on page 15 undefined on input line
  686.
+
+
+LaTeX Warning: Reference `fig:stress2' on page 15 undefined on input line 687.
+
+
+LaTeX Warning: Reference `fig:stress1' on page 15 undefined on input line 688.
 
 
 Package natbib Warning: Citation `trugman2018' on page 15 undefined on input li
@@ -1250,8 +1533,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
 
+LaTeX Warning: Reference `fig:t' on page 16 undefined on input line 698.
+
+
 Package natbib Warning: Citation `keenan2012' on page 16 undefined on input lin
 e 699.
+
+
+LaTeX Warning: Reference `fig:vwp' on page 16 undefined on input line 707.
 
 
 Package natbib Warning: Citation `fisher2006' on page 16 undefined on input lin
@@ -1274,6 +1563,15 @@ Package natbib Warning: Citation `brooks1964' on page 16 undefined on input lin
 e 715.
 
 
+LaTeX Warning: Reference `supp:cond' on page 16 undefined on input line 715.
+
+
+LaTeX Warning: Reference `fig:rwu' on page 16 undefined on input line 716.
+
+
+LaTeX Warning: Reference `fig:sm2' on page 16 undefined on input line 717.
+
+
 Package natbib Warning: Citation `cai2018' on page 16 undefined on input line 7
 18.
 
@@ -1284,6 +1582,12 @@ e 718.
 
 Package natbib Warning: Citation `oliveira2005' on page 16 undefined on input l
 ine 724.
+
+
+LaTeX Warning: Reference `fig:t2' on page 16 undefined on input line 731.
+
+
+LaTeX Warning: Reference `fig:gpp' on page 16 undefined on input line 731.
 
 
 Package natbib Warning: Citation `jarvis2011' on page 16 undefined on input lin
@@ -1297,6 +1601,12 @@ ne 732.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
+
+LaTeX Warning: Reference `fig:hr' on page 17 undefined on input line 736.
+
+
+LaTeX Warning: Reference `supp:hr' on page 17 undefined on input line 736.
+
 
 Package natbib Warning: Citation `burgess1998' on page 17 undefined on input li
 ne 736.
@@ -1330,8 +1640,23 @@ Package natbib Warning: Citation `xu2016' on page 17 undefined on input line 75
 3.
 
 
+LaTeX Warning: Reference `fig:cool' on page 17 undefined on input line 759.
+
+
+LaTeX Warning: Reference `supp:cool' on page 17 undefined on input line 760.
+
+
+LaTeX Warning: Reference `supp:cool' on page 17 undefined on input line 761.
+
+
 Package natbib Warning: Citation `bonan2014' on page 17 undefined on input line
  763.
+
+
+LaTeX Warning: Reference `fig:cool' on page 17 undefined on input line 765.
+
+
+LaTeX Warning: Reference `supp:cool' on page 17 undefined on input line 766.
 
 
 Package natbib Warning: Citation `powell2013' on page 17 undefined on input lin
@@ -1370,6 +1695,13 @@ File: figs/T.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/T.pdf used on input line 849.
 (pdftex.def)             Requested size: 360.0pt x 334.28818pt.
 
+
+LaTeX Warning: Reference `sect:exp' on page 20 undefined on input line 853.
+
+
+LaTeX Warning: Reference `sect:exp' on page 20 undefined on input line 853.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 853--853
 []\T1/ntxtlf/b/n/9 Figure  3. \T1/ntxtlf/m/n/9 Mod-eled ver-sus ob-served daily
  to-tal tran-spi-ra-tion. Ob-ser-va-tions are de-rived from field ob-ser-va-
@@ -1377,8 +1709,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 853--853
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 853--853
-\T1/ntxtlf/m/n/9 tions of sap flux ve-loc-ity (see Sec-tion 3[]). (a,b) SMS con
--figua-tion, un-der am-bi-ent con-di-tions and 60% TFE.
+\T1/ntxtlf/m/n/9 tions of sap flux ve-loc-ity (see Sec-tion []). (a,b) SMS con-
+figua-tion, un-der am-bi-ent con-di-tions and 60% TFE.
  []
 
 [20
@@ -1410,6 +1742,13 @@ File: figs/sm2.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/sm2.pdf used on input line 873.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
+
+LaTeX Warning: Reference `supp:sm2' on page 22 undefined on input line 877.
+
+
+LaTeX Warning: Reference `supp:sm2' on page 22 undefined on input line 877.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 877--877
 []\T1/ntxtlf/b/n/9 Figure  5. \T1/ntxtlf/m/n/9 Vol-u-met-ric soil wa-ter con-te
 nt (-) over time un-der am-bi-ent and TFE con-di-tions at a depth of
@@ -1418,14 +1757,14 @@ nt (-) over time un-der am-bi-ent and TFE con-di-tions at a depth of
 
 Underfull \hbox (badness 10000) in paragraph at lines 877--877
 \T1/ntxtlf/m/n/9 50cm. (a/b) SMS (c/d) PHS. Ar-rows in-di-cate start of TFE. Fi
-g-ure A.10[] plots 7 other soil depths. Note that
+g-ure [] plots 7 other soil depths. Note that SMS
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 877--877
-\T1/ntxtlf/m/n/9 SMS can tend to `stick' at wa-ter con-tent of 0.1 dur-ing the 
-dry sea-son, which cor-re-sponds to $\OML/ntxmi/m/it/9  []$\T1/ntxtlf/m/n/9 =-2
-.5MPa
+\T1/ntxtlf/m/n/9 can tend to `stick' at wa-ter con-tent of 0.1 dur-ing the dry 
+sea-son, which cor-re-sponds to $\OML/ntxmi/m/it/9  []$\T1/ntxtlf/m/n/9 =-2.5MP
+a and is
  []
 
 <figs/vwp.pdf, id=166, 505.89pt x 289.08pt>
@@ -1483,6 +1822,19 @@ File: figs/vpdstress.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/vpdstress.pdf used on input line 911.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
+
+LaTeX Warning: Reference `supp:fsds' on page 25 undefined on input line 917.
+
+
+LaTeX Warning: Reference `tab:tercile' on page 25 undefined on input line 917.
+
+
+LaTeX Warning: Reference `supp:fsds' on page 25 undefined on input line 917.
+
+
+LaTeX Warning: Reference `tab:tercile' on page 25 undefined on input line 917.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 917--917
 []\T1/ntxtlf/b/n/9 Figure  8. \T1/ntxtlf/m/n/9 Wa-ter stress fac-tor ver-sus va
 -por pres-sure deficit (2002-2003), con-strained to timesteps with
@@ -1497,7 +1849,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 917--917
 
 Underfull \hbox (badness 10000) in paragraph at lines 917--917
 \T1/ntxtlf/m/n/9 the re-la-tion-ship with VPD, the re-verse (con-trol-ling for 
-VPD) is shown in Fig-ure A.4[]. For SMS (a,b), data
+VPD) is shown in Fig-ure []. For SMS (a,b), data
  []
 
 
@@ -1546,6 +1898,13 @@ File: figs/smp.jpg Graphic file (type jpg)
 <use figs/smp.jpg>
 Package pdftex.def Info: figs/smp.jpg used on input line 936.
 (pdftex.def)             Requested size: 360.0pt x 257.12454pt.
+
+
+LaTeX Warning: Reference `supp:sm' on page 27 undefined on input line 941.
+
+
+LaTeX Warning: Reference `supp:sm' on page 27 undefined on input line 941.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 941--941
 []\T1/ntxtlf/b/n/9 Figure  10. \T1/ntxtlf/m/n/9 Ver-ti-cal pro-file of soil wa-
@@ -1724,6 +2083,15 @@ File: figs/suppstress.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/suppstress.pdf used on input line 1040.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
+
+LaTeX Warning: Reference `fig:stress2' on page 33 undefined on input line 1046.
+
+
+
+LaTeX Warning: Reference `fig:stress2' on page 33 undefined on input line 1046.
+
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
 []\T1/ntxtlf/b/n/9 Figure  A.4. \T1/ntxtlf/m/n/9 Wa-ter stress fac-tor ver-sus 
 down-welling short-wave ra-di-a-tion (2002-2003), for timesteps with
@@ -1738,7 +2106,7 @@ igh-light the re-la-tion-ship with down-welling
 
 Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
 \T1/ntxtlf/m/n/9 ra-di-a-tion, the re-verse (con-trol-ling for ra-di-a-tion) is
- shown in Fig-ure 8[]. For SMS (a,b), data are sub-di-vided
+ shown in Fig-ure []. For SMS (a,b), data are sub-di-vided
  []
 
 
@@ -1766,6 +2134,14 @@ File: figs/suppcond.pdf Graphic file (type pdf)
 Package pdftex.def Info: figs/suppcond.pdf used on input line 1054.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
+
+LaTeX Warning: Reference `fig:rwu' on page 36 undefined on input line 1069.
+
+
+LaTeX Warning: Reference `sect:smsrwu' on page 36 undefined on input line 1069.
+
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
 []\T1/ntxtlf/b/n/9 Figure  A.5. \T1/ntxtlf/m/n/9 (a,b) Log of con-duc-tance ($\
 OML/ntxmi/m/it/9 k[]$\T1/ntxtlf/m/n/9 ) ver-sus soil po-ten-tial for Soil Layer
@@ -1786,11 +2162,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
  []
 
 
+LaTeX Warning: Reference `fig:rwu' on page 36 undefined on input line 1069.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
 []\T1/ntxtlf/m/n/9 while SMS $\U/ntxmia/m/it/9 ^^A\OML/ntxmi/m/it/9  $ \T1/ntxt
 lf/m/n/9 de-creases by less than 1 or-der of mag-ni-tude be-tween 0 and -2MPa, 
 lead-ing to higher sen-si-tiv-
  []
+
+
+LaTeX Warning: Reference `sect:smsrwu' on page 36 undefined on input line 1069.
+
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
@@ -1802,8 +2185,8 @@ pha-size the re-la-tion-ship with soil po-ten-tial.
 Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
 \T1/ntxtlf/m/n/9 With SMS, con-duc-tance is not mod-eled ex-plic-itly, but rath
 er cal-cu-lated as $\OML/ntxmi/m/it/9 k$\T1/ntxtlf/m/n/9 =$\OML/ntxmi/m/it/9 q=
-\U/ntxmia/m/it/9 ^^A\OML/ntxmi/m/it/9  $ \T1/ntxtlf/m/n/9 (see Sec-tion 2.4.2[]
-). For
+\U/ntxmia/m/it/9 ^^A\OML/ntxmi/m/it/9  $ \T1/ntxtlf/m/n/9 (see Sec-tion []). Fo
+r
  []
 
 
@@ -1859,6 +2242,12 @@ Package pdftex.def Info: figs/suppsm2.pdf used on input line 1105.
 (pdftex.def)             Requested size: 360.0pt x 462.86055pt.
 
 
+LaTeX Warning: Reference `fig:sm' on page 39 undefined on input line 1107.
+
+
+LaTeX Warning: Reference `fig:sm' on page 39 undefined on input line 1107.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [39
@@ -1870,6 +2259,13 @@ File: figs/suppcool.pdf Graphic file (type pdf)
  <use figs/suppcool.pdf>
 Package pdftex.def Info: figs/suppcool.pdf used on input line 1114.
 (pdftex.def)             Requested size: 360.0pt x 462.86055pt.
+
+
+LaTeX Warning: Reference `fig:cool' on page 41 undefined on input line 1116.
+
+
+LaTeX Warning: Reference `fig:cool' on page 41 undefined on input line 1116.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 1116--1116
 []\T1/ntxtlf/b/n/9 Figure  A.10. \T1/ntxtlf/m/n/9 Mod-eled (left col-umn) and o
@@ -1910,6 +2306,30 @@ Package natbib Warning: Citation `bonan2014' on page 42 undefined on input line
 Package natbib Warning: Citation `medlyn2011' on page 43 undefined on input lin
 e 1200.
 
+
+LaTeX Warning: Reference `eq:d1' on page 43 undefined on input line 1236.
+
+
+LaTeX Warning: Reference `suppeq:vc' on page 43 undefined on input line 1246.
+
+
+LaTeX Warning: Reference `suppeq:vc' on page 43 undefined on input line 1246.
+
+
+LaTeX Warning: Reference `suppeq:e1' on page 43 undefined on input line 1247.
+
+
+LaTeX Warning: Reference `suppeq:e2' on page 43 undefined on input line 1247.
+
+
+LaTeX Warning: Reference `flowchart' on page 43 undefined on input line 1249.
+
+
+LaTeX Warning: Reference `eq:d1' on page 43 undefined on input line 1250.
+
+
+LaTeX Warning: Reference `supp:fw' on page 43 undefined on input line 1250.
+
 <figs/schem3.pdf, id=2348, 471.7625pt x 597.23125pt>
 File: figs/schem3.pdf Graphic file (type pdf)
  <use figs/schem3.pdf>
@@ -1922,29 +2342,36 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [43] [44 <./figs/schem3.pdf>] [45
 
 ] [46]
+
+LaTeX Warning: Reference `supp:ens' on page 47 undefined on input line 1430.
+
+
 Overfull \hbox (92.19499pt too wide) in paragraph at lines 1441--1443
 \T1/ntxtlf/m/n/10 Observational data col-lec-tion is a prod-uct of CNPQ grant 4
 57914/2013-0/MCTI/CNPq/FNDCT/LBA/ESECAFLOR 
  []
 
-No file james.bbl.
+No file phs.bbl.
 [47]
 
 Package natbib Warning: There were undefined citations.
 
-(./james.aux)
+(./phs.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 6433 strings out of 493014
- 85283 string characters out of 6133351
- 147063 words of memory out of 5000000
- 9757 multiletter control sequences out of 15000+600000
+ 6429 strings out of 493014
+ 85217 string characters out of 6133351
+ 146318 words of memory out of 5000000
+ 9755 multiletter control sequences out of 15000+600000
  89923 words of font info for 136 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 41i,16n,37p,839b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,16n,37p,837b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive
 /2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2016
@@ -1966,7 +2393,7 @@ ts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/txfonts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on james.pdf (47 pages, 2975354 bytes).
+Output written on phs.pdf (47 pages, 2976879 bytes).
 PDF statistics:
  2455 PDF objects out of 2487 (max. 8388607)
  2321 compressed objects within 24 object streams
