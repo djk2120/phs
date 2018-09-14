@@ -1,0 +1,831 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 SEP 2018 17:24
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**suppinfo.tex
+(./suppinfo.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(./agujournal.cls
+Document Class: agujournal 08/06/2016
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/newtxtext.sty
+Package: newtxtext 2016/03/27 v1.466
+
+`newtxtext' v1.466, 2016/03/27 Text macros taking advantage of TeX-Gyre Termes 
+fonts (msharpe)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \scshape on input line 37.
+)
+\ntx@fs=\dimen102
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count79
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count80
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+Package textcomp Info: Changing ? sub-encoding to TS1/0 on input line 80.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+) 
+Babel
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 25
+0.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
+File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 250.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/newtxmath.sty
+Package: newtxmath 2016/03/27 v1.466
+
+`newtxmath' v1.466, 2016/03/27 Math macros based on txfonts (msharpe)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count81
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count82
+\leftroot@=\count83
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count84
+\DOTSCASE@=\count85
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count86
+\c@MaxMatrixCols=\count87
+\dotsspace@=\muskip10
+\c@parentequation=\count88
+\dspbrk@lvl=\count89
+\tag@help=\toks17
+\row@=\count90
+\column@=\count91
+\maxfields@=\count92
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/kastrup/binhex.tex)
+\tx@Isdigit=\count93
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ntxtlf/m/n on input line 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ntxtlf/m/n on input line 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ntxtlf/m/n --> OT1/ntxtlf/b/n on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 144.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/qhv/m/n on input line 144.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/qhv/m/n on input line 144.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ntxtlf/m/it on input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ntxtlf/m/it on input line 145.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 146.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 146.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 146.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ntxtlf/b/n on input line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ntxtlf/b/n on input line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/ntxtlf/m/it --> OT1/ntxtlf/b/it on input line 149.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/qhv/m/n --> T1/qhv/b/n on input line 150.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/b/n on input line 151.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 197.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 197.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ntxmi/m/it on input line 197.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 198.
+\symlettersA=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 213.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ntxsy/m/n on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ntxsy/m/n on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/ntxsy/m/n --> OMS/ntxsy/b/n on input line 222.
+\symAMSm=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 242.
+\symsymbolsC=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 263.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 276.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 2
+76.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 276.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 276
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 276.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 277.
+\symlargesymbolsTXA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 291.
+LaTeX Info: Redefining \not on input line 1749.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count94
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count95
+\output=\toks21
+\linenoprevgraf=\count96
+\linenumbersep=\dimen114
+\linenumberwidth=\dimen115
+\c@linenumber=\count97
+\c@pagewiselinenumber=\count98
+\c@LN@truepage=\count99
+\c@internallinenumber=\count100
+\c@internallinenumbers=\count101
+\quotelinenumbersep=\dimen116
+\bframerule=\dimen117
+\bframesep=\dimen118
+\bframebox=\box28
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip44
+\RaggedLeftLeftskip=\skip45
+\RaggedRightLeftskip=\skip46
+\CenteringRightskip=\skip47
+\RaggedLeftRightskip=\skip48
+\RaggedRightRightskip=\skip49
+\CenteringParfillskip=\skip50
+\RaggedLeftParfillskip=\skip51
+\RaggedRightParfillskip=\skip52
+\JustifyingParfillskip=\skip53
+\CenteringParindent=\skip54
+\RaggedLeftParindent=\skip55
+\RaggedRightParindent=\skip56
+\JustifyingParindent=\skip57
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count102
+\rotFPtop=\skip58
+\rotFPbot=\skip59
+\rot@float@box=\box29
+\rot@mess@toks=\toks22
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box30
+\UL@hyphenbox=\box31
+\UL@skip=\skip60
+\UL@hook=\toks23
+\UL@height=\dimen119
+\UL@pe=\count103
+\UL@pixel=\dimen120
+\ULC@box=\box32
+Package: ulem 2012/05/18
+\ULdepth=\dimen121
+)
+\draftskip=\count104
+\c@section=\count105
+\c@subsection=\count106
+\c@subsubsection=\count107
+\c@paragraph=\count108
+\c@subparagraph=\count109
+\c@figure=\count110
+\c@table=\count111
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
+\c@appendnum=\count112
+\bibindent=\dimen122
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip63
+\bibsep=\skip64
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count113
+)
+\refchangenumber=\count114
+\listchangenum=\count115
+)
+(./suppinfo.aux)
+\openout1 = `suppinfo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 57.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 57
+.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/omlntxmi.fd
+File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 57
+.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/omsntxsy.fd
+File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 57.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 57.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+\c@mv@tabular=\count116
+\c@mv@boldtabular=\count117
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count118
+\scratchdimen=\dimen123
+\scratchbox=\box33
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen124
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 57.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 60.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 60.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 68.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 68.
+LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 6
+8.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
+File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 68.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 68.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 68.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 68.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxmia.fd
+File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 68.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxsym.fd
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 68.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 70.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 70.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.2pt on input line 70.
+LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 7
+3.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/t1ntxsups.fd
+File: t1ntxsups.fd 2015/01/17 v1.0
+)
+LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
+(Font)              scaled to size 8.0pt on input line 73.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 73.
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 73.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 9.0pt on input line 73.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.5pt on input line 81.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.5> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.5pt on input line 81.
+
+<figs/roots.pdf, id=1, 289.08pt x 216.81pt>
+File: figs/roots.pdf Graphic file (type pdf)
+ <use figs/roots.pdf>
+Package pdftex.def Info: figs/roots.pdf used on input line 93.
+(pdftex.def)             Requested size: 240.0pt x 179.99857pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <9> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 9.0pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 9.0pt on input line 97.
+ [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fi
+gs/roots.pdf>]
+<figs/ens.pdf, id=30, 505.89pt x 289.08pt>
+File: figs/ens.pdf Graphic file (type pdf)
+ <use figs/ens.pdf>
+Package pdftex.def Info: figs/ens.pdf used on input line 102.
+(pdftex.def)             Requested size: 360.0pt x 205.71579pt.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 104.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]\T1/ntxtlf/b/n/9 Figure  S2. \T1/ntxtlf/m/n/9 Re-sults of the PHS pa-ram-e-te
+r tun-ing ex-er-cise. The main text PHS sim-u-la-tion was cho-sen to
+ []
+
+[2
+
+ <./figs/ens.pdf>] <figs/suppfpsn.pdf, id=37, 361.35pt x 216.81pt>
+File: figs/suppfpsn.pdf Graphic file (type pdf)
+
+<use figs/suppfpsn.pdf>
+Package pdftex.def Info: figs/suppfpsn.pdf used on input line 113.
+(pdftex.def)             Requested size: 240.0pt x 144.0015pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]\T1/ntxtlf/b/n/9 Figure  S3. \T1/ntxtlf/m/n/9 2003 dry sea-son di-ur-nal mean
+ pho-to-syn-the-sis un-der am-bi-ent and TFE con-di-tions for the two
+ []
+
+<figs/qwet.pdf, id=38, 505.89pt x 361.35pt>
+File: figs/qwet.pdf Graphic file (type pdf)
+ <use figs/qwet.pdf>
+Package pdftex.def Info: figs/qwet.pdf used on input line 122.
+(pdftex.def)             Requested size: 360.0pt x 257.14474pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]\T1/ntxtlf/b/n/9 Figure  S4. \T1/ntxtlf/m/n/9 2003 wet sea-son (FMA) cu-mu-la
+-tive root wa-ter up-take and pre-cip-i-ta-tion. (a) Cu-mu-la-tive pre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/ntxtlf/m/n/9 cip-i-ta-tion over time un-der am-bi-ent con-di-tions (b,c) Cu
+-mu-la-tive wa-ter up-take over time from above and be-low
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/suppstress.pdf, id=39, 505.89pt x 361.35pt>
+File: figs/suppstress.pdf Graphic file (type pdf)
+ <use figs/suppstress.pdf>
+Package pdftex.def Info: figs/suppstress.pdf used on input line 134.
+(pdftex.def)             Requested size: 360.0pt x 257.14474pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+[]\T1/ntxtlf/b/n/9 Figure  S5. \T1/ntxtlf/m/n/9 Wa-ter stress fac-tor ver-sus d
+own-welling short-wave ra-di-a-tion (2002-2003), for timesteps with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ntxtlf/m/n/9 VPD be-tween 1 and 1.0559 kPa (n=470). VPD is con-trolled to h
+igh-light the re-la-tion-ship with down-welling
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ntxtlf/m/n/9 ra-di-a-tion, the re-verse (con-trol-ling for ra-di-a-tion) is
+ shown in Fig-ure 7. For SMS (a,b), data are sub-di-vided
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ntxtlf/m/n/9 based on av-er-age soil ma-tric po-ten-tial, weighted by root 
+frac-tion. For PHS (c,d), data are sub-di-vided based on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+\T1/ntxtlf/m/n/9 predawn (5h) root wa-ter po-ten-tial. Blue dots rep-re-sent th
+e wettest ter-cile, yel-low dots rep-re-sent the in-ter-me-di-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3
+
+ <./figs/suppfpsn.pdf>] [4 <./figs/qwet.pdf>] [5 <./figs/suppstress.pdf>]
+<figs/suppcond.pdf, id=71, 505.89pt x 361.35pt>
+File: figs/suppcond.pdf Graphic file (type pdf)
+ <use figs/suppcond.pdf>
+Package pdftex.def Info: figs/suppcond.pdf used on input line 148.
+(pdftex.def)             Requested size: 360.0pt x 257.14474pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/ntxtlf/b/n/9 Figure  S6. \T1/ntxtlf/m/n/9 (a,b) Log of con-duc-tance ($\O
+ML/ntxmi/m/it/9 k[]$\T1/ntxtlf/m/n/9 ) ver-sus soil po-ten-tial for Soil Layer 
+5. (c,d) Log of hy-draulic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/ntxtlf/m/n/9 Multiplied to-gether $\OML/ntxmi/m/it/9 k[]$ \T1/ntxtlf/m/n/
+9 and $\U/ntxmia/m/it/9 ^^A\OML/ntxmi/m/it/9  $ \T1/ntxtlf/m/n/9 yield the Laye
+r-5 root wa-ter up-take. PHS con-duc-tance de-creases by al-most 3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/ntxtlf/m/n/9 or-ders of mag-ni-tude be-tween 0 and -1MPa, which leads to re
+-duced RWU, though this is off-set (by about half)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/ntxtlf/m/n/9 while SMS $\U/ntxmia/m/it/9 ^^A\OML/ntxmi/m/it/9  $ \T1/ntxt
+lf/m/n/9 de-creases by less than 1 or-der of mag-ni-tude be-tween 0 and -2MPa, 
+lead-ing to higher sen-si-tiv-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\T1/ntxtlf/m/n/9 Only mid-day (12h-14h, 2002-2003) timesteps are shown to em-
+pha-size the re-la-tion-ship with soil po-ten-tial.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/ntxtlf/m/n/9 With SMS, con-duc-tance is not mod-eled ex-plic-itly, but rath
+er cal-cu-lated as $\OML/ntxmi/m/it/9 k$\T1/ntxtlf/m/n/9 =$\OML/ntxmi/m/it/9 q=
+\U/ntxmia/m/it/9 ^^A\OML/ntxmi/m/it/9  $ \T1/ntxtlf/m/n/9 (see Sec-tion 2.4.2).
+ For
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/ntxtlf/m/n/9 soil po-ten-tials greater than or equal to 2.5MPa, $\U/ntxmia/
+m/it/9 ^^A\OML/ntxmi/m/it/9  $\T1/ntxtlf/m/n/9 =0, and SMS im-plied con-duc-tan
+ce is un-de-fined, but could
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+\T1/ntxtlf/m/n/9 prob-a-bly be con-sid-ered to equal 0. PHS con-duc-tance cap-t
+ures both root tis-sue and soil ma-trix re-sis-tances
+ []
+
+[6
+
+ <./figs/suppcond.pdf>] <figs/hr2.pdf, id=152, 505.89pt x 361.35pt>
+File: figs/hr2.pdf Graphic file (type pdf)
+
+<use figs/hr2.pdf>
+Package pdftex.def Info: figs/hr2.pdf used on input line 170.
+(pdftex.def)             Requested size: 360.0pt x 257.14474pt.
+ [7
+
+ <./figs/hr2.pdf>]
+<figs/suppsmp.jpg, id=160, 2810.5pt x 2007.5pt>
+File: figs/suppsmp.jpg Graphic file (type jpg)
+ <use figs/suppsmp.jpg>
+Package pdftex.def Info: figs/suppsmp.jpg used on input line 180.
+(pdftex.def)             Requested size: 360.0pt x 257.12454pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
+[]\T1/ntxtlf/b/n/9 Figure  S8. \T1/ntxtlf/m/n/9 Ver-ti-cal pro-file of soil wa-
+ter con-tent (by vol-ume) through time un-der am-bi-ent through-fall
+ []
+
+<figs/suppsm2.pdf, id=161, 505.89pt x 650.43pt>
+File: figs/suppsm2.pdf Graphic file (type pdf)
+ <use figs/suppsm2.pdf>
+Package pdftex.def Info: figs/suppsm2.pdf used on input line 190.
+(pdftex.def)             Requested size: 360.0pt x 462.86055pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8
+
+
+ <./figs/suppsmp.jpg>] [9 <./figs/suppsm2.pdf>]
+<figs/suppcool.pdf, id=171, 505.89pt x 650.43pt>
+File: figs/suppcool.pdf Graphic file (type pdf)
+ <use figs/suppcool.pdf>
+Package pdftex.def Info: figs/suppcool.pdf used on input line 199.
+(pdftex.def)             Requested size: 360.0pt x 462.86055pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+[]\T1/ntxtlf/b/n/9 Figure  S10. \T1/ntxtlf/m/n/9 Mod-eled (left col-umn) and ob
+-served (right col-umn) tran-spi-ra-tion vs. model soil po-ten-tial.
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./figs/suppcool.pdf>] (./suppinfo.aux) ) 
+Here is how much of TeX's memory you used:
+ 6088 strings out of 493014
+ 80836 string characters out of 6133351
+ 135371 words of memory out of 5000000
+ 9473 multiletter control sequences out of 15000+600000
+ 59699 words of font info for 91 fonts, out of 8000000 for 9000
+ 1147 hyphenation exceptions out of 8191
+ 41i,8n,37p,831b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dis
+t/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
+ps/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/ne
+wtx/ntx-ec-tlf.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-g
+yre/qtmb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qt
+mr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on suppinfo.pdf (10 pages, 1372483 bytes).
+PDF statistics:
+ 212 PDF objects out of 1000 (max. 8388607)
+ 179 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+
