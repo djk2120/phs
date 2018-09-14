@@ -11,7 +11,7 @@ Sean Swenson\affil{2},
 Keith W. Oleson\affil{2},
 David M. Lawrence\affil{2},
 Rosie Fisher\affil{2},
-Antonio Carlos Lola da Costa \
+Antonio Carlos Lola da Costa\affil{3},
 Pierre Gentine\affil{1}
 }
 
@@ -45,7 +45,7 @@ Incorporating plant hydraulic theory advances the physical basis of the CLM, whi
 
 \section{Introduction}
 
-Trees face emerging risk from climate change globally \citep{allen2010,anderegg2013b,mcdowell2016}, which may lead to increases in mortality and decreases in the terrestrial carbon sink.
+Trees face emerging risk from climate change globally, which may lead to increases in mortality and decreases in the terrestrial carbon sink \citep{allen2010,anderegg2013b,mcdowell2016}.
 In addition to stress from soil moisture drought, vegetation is susceptible to increasing atmospheric demand for evapotranspiration \citep{restaino2016,novick2016b,lemordant2018}.
 Increases in vapor pressure deficit (VPD) are occurring with global warming \citep{ficklin2017,seager2015}, and are associated with impacts on vegetation, such as large-scale die-off \citep{williams2013,mcdowell2015}.
 Understanding vegetation response to environmental drivers is important both for discerning future climate impacts on forests and for modeling feedbacks to the carbon and hydrological cycles \citep{lemordant2018}.
@@ -73,7 +73,7 @@ We refer to this hydraulics-based implementation as the `Plant Hydraulic Stress'
 Previous versions of the CLM employed an empirical soil moisture stress function, as described above.
 
 PHS, by explicitly representing plant hydraulics, introduces modeled vegetation water potential (discretized into leaf, stem and root elements) into the CLM, as well as a physical model of water supply, from the soil through the vegetation substrate. 
-Transpiration is attenuated in the model according to leaf water status, capturing dynamic vegetation water use regulation in response to both soil moisture and atmospheric evaporative demand. 
+Transpiration is attenuated in the model based on leaf water potential, capturing dynamic vegetation water use regulation in response to both soil moisture and atmospheric evaporative demand. 
 These changes in the parameterization framework have numerous implications, including: 
 
 \begin{enumerate}
@@ -84,7 +84,7 @@ These changes in the parameterization framework have numerous implications, incl
 \item Modeling vegetation water potential allows improved connection to remote sensing observations of vegetation water status (Vegetation Optical Depth) \citep{konings2016}. 
 \end{enumerate}
 
-To assess the new model formulation, we carried out site-level simulations at Caxiuan\~a National Forest in Brazil, which features a critical biome (terra-firme moist tropical evergreen forest) \citep{fisher2006}. Starting in 2001, a plot at this site was subjected to an approximately 50\% percent precipitation throughfall exclusion. Due to the large drop in soil moisture at the precipitation exclusion site, significant vegetation water stress regulation of transpiration and photosynthesis was observed at the site \citep{dacosta2010,dacosta2013}, providing a drought signal to demonstrate model dynamics \citep{fisher2007}.
+To assess the new model formulation, we carried out site-level simulations at Caxiuan\~a National Forest in Brazil, a terra-firme moist tropical evergreen forest \citep{fisher2006}. Starting in 2001, a plot at this site was subjected to an approximately 50\% percent precipitation throughfall exclusion. Due to the large drop in soil moisture at the precipitation exclusion site, significant vegetation water stress regulation of transpiration and photosynthesis was observed\citep{dacosta2010,dacosta2013}, providing a drought signal to demonstrate model dynamics \citep{fisher2007}.
 
 In this paper we therefore:
 \begin{enumerate}
@@ -874,7 +874,7 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
      \caption{Volumetric soil water content (-) over time under ambient and TFE conditions at a depth of 50cm.
      (a/b) SMS
      (c/d) PHS.
-     Arrows indicate start of TFE. Figure \ref{supp:sm2} plots 7 other soil depths. Note that SMS can tend to `stick' at water content of 0.1 during the dry season, which corresponds to $\psi_{\text{soil}}$=-2.5MPa and is the value of SMS parameter $\psi_c$. }
+     Arrows indicate start of TFE. Supplementary Figure \ref{supp:sm2} plots 7 other soil depths. Note that SMS can tend to `stick' at water content of 0.1 during the dry season, which corresponds to $\psi_{\text{soil}}$=-2.5MPa and is the value of SMS parameter $\psi_c$. }
      \label{fig:sm2}
   \end{figure}
   
@@ -910,7 +910,7 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
      \centering
      \includegraphics[width=30pc]{figs/vpdstress.pdf}
      \caption{Water stress factor versus vapor pressure deficit (2002-2003), constrained to timesteps with downwelling shortwave radiation between 400 and 425 W/m2 (n=515).
-     Radiation is controlled to highlight the relationship with VPD, the reverse (controlling for VPD) is shown in Figure \ref{supp:fsds}.
+     Radiation is controlled to highlight the relationship with VPD, the reverse (controlling for VPD) is shown in Supplementary Figure \ref{supp:fsds}.
      For SMS (a,b), data are subdivided based on average soil matric potential, weighted by root fraction.
      For PHS (c,d), data are subdivided based on predawn (5h) root water potential.
      Blue dots represent the wettest tercile, yellow dots represent the intermediate tercile, and red dots represent the driest tercile (values defining each tercile are in Table \ref{tab:tercile}).
@@ -1006,7 +1006,7 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
       \begin{figure}[h]
      \centering
      \includegraphics[width=30pc]{figs/ens.pdf}
-     \caption{Parameter tuning exercise.
+     \caption{Results of the PHS parameter tuning exercise. The main text PHS simulation was chosen to maximize R$^2$ - RMSE.
      }
      \label{supp:ens}
        \end{figure}
@@ -1070,20 +1070,11 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
      \label{supp:cond}
   \end{figure}
   \clearpage
-
-\clearpage   
-  \begin{figure}[h]
-     \centering
-     \includegraphics[width=30pc]{figs/k.pdf}
-     \caption{2003 diurnal mean of Soil Layer 5 conductance and $\Delta\psi$, under ambient and TFE conditions. 
-     }
-     \label{supp:cond2}
-  \end{figure}
   
       \begin{figure}[h]
      \centering
      \includegraphics[width=30pc]{figs/hr2}
-     \caption{PHS hydraulic distribution during 2003. Alternative version partitioning by direction.}
+     \caption{PHS hydraulic distribution during 2002 and 2003, partitioning by direction and time of day.}
      \label{supp:hr}
   \end{figure}
   \clearpage
@@ -1104,7 +1095,7 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
      \centering
      \includegraphics[width=30pc]{figs/suppsm2.pdf}
      \caption{Time series of soil moisture by soil layer.
-     Complements Figure \ref{fig:sm}}
+     Complements Figure \ref{fig:sm}.}
      \label{supp:sm2}
   \end{figure}
           \clearpage
@@ -1113,7 +1104,7 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
      \centering
      \includegraphics[width=30pc]{figs/suppcool.pdf}
      \caption{Modeled (left column) and observed (right column) transpiration  vs. model soil potential.
-     Complements Figure \ref{fig:cool}}
+     Complements Figure \ref{fig:cool}.}
      \label{supp:cool}
   \end{figure}
           \clearpage
@@ -1439,7 +1430,7 @@ Rooting depth parameter, $\beta$: 0.95, 0.98, 0.993 (unitless)
 
 
 \acknowledgments
-Observational data collection is a product of CNPQ grant 457914/2013-0/MCTI/CNPq/FNDCT/LBA/ESECAFLOR and UK NERC grant NE/J011002 to ACLdC. We thank all those involved with data collection and the Museu Paraense Emilio Goeldi in Belem PA, Brazil, for hosting the drought experiment at Caxiuan\~a National Forest, and LBA for underpinning support in Brazil. The experiment was founded, and is led, by P. Meir (University of Edinburgh UK and Australian National University, Australia), with RF also contributing substantial data collection and empirical analysis used in this publication. Observational data and model output are available online at github.com/djk2120/phs.
+Observational data collection is a product of CNPQ grant 457914/2013-0/MCTI/CNPq/ FNDCT/LBA/ESECAFLOR and UK NERC grant NE/J011002 to ACLdC. We thank all those involved with data collection and the Museu Paraense Emilio Goeldi in Belem PA, Brazil, for hosting the drought experiment at Caxiuan\~a National Forest, and LBA for underpinning support in Brazil. The experiment was founded, and is led, by P. Meir (University of Edinburgh UK and Australian National University, Australia), with RF also contributing substantial data collection and empirical analysis used in this publication. Observational data and model output are available online at github.com/djk2120/phs.
 
 The National Center for Atmospheric Research is sponsored by the National Science Foundation. Computing resources (doi:10.5065/D6RX99HX) were provided by the Climate Simulation Laboratory at NCAR's Computational and Information Systems Laboratory, sponsored by the National Science Foundation and other agencies. DML was supported in part by the RUBISCO Scientific Focus Area (SFA), which is sponsored by the Regional and Global Climate Modeling (RGCM) Program in the Climate and Environmental Sciences Division (CESD) of the Office of Biological and Environmental Research in the U.S. Department of Energy Office of Science.
 

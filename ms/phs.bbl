@@ -1,0 +1,789 @@
+\begin{thebibliography}{101}
+\providecommand{\natexlab}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{\textit{Allen et~al.}(2010)\textit{Allen, Macalady, Chenchouni,
+  Bachelet, McDowell, Vennetier, Kitzberger, Rigling, Breshears, Hogg,
+  Gonzalez, Fensham, Zhang, Castro, Demidova, Lim, Allard, Running, Semerci,
+  and Cobb}}]{allen2010}
+Allen, C.~D., A.~K. Macalady, H.~Chenchouni, D.~Bachelet, N.~McDowell,
+  M.~Vennetier, T.~Kitzberger, A.~Rigling, D.~D. Breshears, E.~T. Hogg,
+  P.~Gonzalez, R.~Fensham, Z.~Zhang, J.~Castro, N.~Demidova, J.-H. Lim,
+  G.~Allard, S.~W. Running, A.~Semerci, and N.~Cobb (2010), A global overview
+  of drought and heat-induced tree mortality reveals emerging climate change
+  risks for forests, \textit{Forest Ecology and Management}, \textit{259}(4),
+  660 -- 684, \doi{https://doi.org/10.1016/j.foreco.2009.09.001}.
+
+\bibitem[{\textit{Anderegg}(2015a)}]{anderegg2015a}
+Anderegg, W. R.~L. (2015a), Spatial and temporal variation in plant hydraulic
+  traits and their relevance for climate change impacts on vegetation,
+  \textit{New Phytologist}, \textit{205}(3), 1008--1014,
+  \doi{10.1111/nph.12907}.
+
+\bibitem[{\textit{Anderegg et~al.}(2013)\textit{Anderegg, Kane, and
+  Anderegg}}]{anderegg2013b}
+Anderegg, W. R.~L., J.~M. Kane, and L.~D.~L. Anderegg (2013), Consequences of
+  widespread tree mortality triggered by drought and temperature stress,
+  \textit{Nature Climate Change}, \textit{3}(1), 30--36.
+
+\bibitem[{\textit{Anderegg et~al.}(2015b)\textit{Anderegg, Schwalm, Biondi,
+  Camarero, Koch, Litvak, Ogle, Shaw, Shevliakova, Williams, Wolf, Ziaco, and
+  Pacala}}]{anderegg2015b}
+Anderegg, W. R.~L., C.~Schwalm, F.~Biondi, J.~J. Camarero, G.~Koch, M.~Litvak,
+  K.~Ogle, J.~D. Shaw, E.~Shevliakova, A.~P. Williams, A.~Wolf, E.~Ziaco, and
+  S.~Pacala (2015b), Pervasive drought legacies in forest ecosystems and their
+  implications for carbon cycle models, \textit{Science}, \textit{349}(6247),
+  528--532, \doi{10.1126/science.aab1833}.
+
+\bibitem[{\textit{Anderegg et~al.}(2017)\textit{Anderegg, Wolf, Arango-Velez,
+  Choat, Chmura, Jansen, Kolb, Li, Meinzer, Pita, Resco~de Dios, Sperry, Wolfe,
+  and Pacala}}]{anderegg2017}
+Anderegg, W. R.~L., A.~Wolf, A.~Arango-Velez, B.~Choat, D.~J. Chmura,
+  S.~Jansen, T.~Kolb, S.~Li, F.~Meinzer, P.~Pita, V.~Resco~de Dios, J.~S.
+  Sperry, B.~T. Wolfe, and S.~Pacala (2017), Plant water potential improves
+  prediction of empirical stomatal models, \textit{PLOS ONE}, \textit{12}(10),
+  1--17, \doi{10.1371/journal.pone.0185481}.
+
+\bibitem[{\textit{Avissar et~al.}(2002)\textit{Avissar, Silva~Dias, Silva~Dias,
+  and Nobre}}]{avissar2002}
+Avissar, R., P.~L. Silva~Dias, M.~A.~F. Silva~Dias, and C.~Nobre (2002), The
+  large-scale biosphere-atmosphere experiment in {A}mazonia ({LBA}): {I}nsights
+  and future research needs, \textit{Journal of Geophysical Research:
+  Atmospheres}, \textit{107}(D20), LBA 54--1--LBA 54--6,
+  \doi{10.1029/2002JD002704}.
+
+\bibitem[{\textit{Bartlett et~al.}(2016)\textit{Bartlett, Klein, Jansen, Choat,
+  and Sack}}]{bartlett2016}
+Bartlett, M.~K., T.~Klein, S.~Jansen, B.~Choat, and L.~Sack (2016), The
+  correlations and sequence of plant stomatal, hydraulic, and wilting responses
+  to drought, \textit{Proceedings of the National Academy of Sciences},
+  \textit{113}(46), 13,098--13,103, \doi{10.1073/pnas.1604088113}.
+
+\bibitem[{\textit{Bonan}(2008)}]{bonan2008}
+Bonan, G.~B. (2008), Forests and climate change: Forcings, feedbacks, and the
+  climate benefits of forests, \textit{Science}, \textit{320}(5882),
+  1444--1449, \doi{10.1126/science.1155121}.
+
+\bibitem[{\textit{Bonan et~al.}(2011)\textit{Bonan, Lawrence, Oleson, Levis,
+  Jung, Reichstein, Lawrence, and Swenson}}]{bonan2011}
+Bonan, G.~B., P.~J. Lawrence, K.~W. Oleson, S.~Levis, M.~Jung, M.~Reichstein,
+  D.~M. Lawrence, and S.~C. Swenson (2011), Improving canopy processes in the
+  {Community Land Model} version 4 ({CLM}4) using global flux fields
+  empirically inferred from {FLUXNET} data, \textit{Journal of Geophysical
+  Research}, \textit{116}, \doi{10.1029/2010JG001593}.
+
+\bibitem[{\textit{Bonan et~al.}(2014)\textit{Bonan, Williams, Fisher, and
+  Oleson}}]{bonan2014}
+Bonan, G.~B., M.~Williams, R.~A. Fisher, and K.~W. Oleson (2014), Modeling
+  stomatal conductance in the earth system: linking leaf water-use efficiency
+  and water transport along the soil-plant-atmosphere continuum,
+  \textit{Geoscientific Model Development}, \textit{7}(5), 2193--2222,
+  \doi{10.5194/gmd-7-2193-2014}.
+
+\bibitem[{\textit{Bouda and Saiers}(2017)}]{bouda2017}
+Bouda, M., and J.~E. Saiers (2017), Dynamic effects of root system architecture
+  improve root water uptake in 1-d process-based soil-root hydrodynamics,
+  \textit{Advances in Water Resources}, \textit{110}, 319 -- 334,
+  \doi{https://doi.org/10.1016/j.advwatres.2017.10.018}.
+
+\bibitem[{\textit{Boyer}(1967)}]{boyer1967}
+Boyer, J.~S. (1967), Leaf water potentials measured with a pressure chamber,
+  \textit{Plant Physiology}, \textit{42}(1), 133--137,
+  \doi{10.1104/pp.42.1.133}.
+
+\bibitem[{\textit{Brooks and Corey}(1964)}]{brooks1964}
+Brooks, R., and A.~Corey (1964), \textit{Hydraulic Properties of Porous Media},
+  Colorado State University Hydrology Papers, Colorado State University.
+
+\bibitem[{\textit{Burgess et~al.}(1998)\textit{Burgess, Adams, Turner, and
+  Ong}}]{burgess1998}
+Burgess, S. S.~O., M.~A. Adams, N.~C. Turner, and C.~K. Ong (1998), The
+  redistribution of soil water by tree root systems, \textit{Oecologia},
+  \textit{115}(3), 306--311, \doi{10.1007/s004420050521}.
+
+\bibitem[{\textit{Cai et~al.}(2018)\textit{Cai, Vanderborght, Langensiepen,
+  Schnepf, H\"uging, and Vereecken}}]{cai2018}
+Cai, G., J.~Vanderborght, M.~Langensiepen, A.~Schnepf, H.~H\"uging, and
+  H.~Vereecken (2018), Root growth, water uptake, and sap flow of winter wheat
+  in response to different soil water conditions, \textit{Hydrology and Earth
+  System Sciences}, \textit{22}(4), 2449--2470,
+  \doi{10.5194/hess-22-2449-2018}.
+
+\bibitem[{\textit{Celia et~al.}(1990)\textit{Celia, Bouloutas, and
+  Zarba}}]{celia1990}
+Celia, M.~A., E.~T. Bouloutas, and R.~L. Zarba (1990), A general
+  mass-conservative numerical solution for the unsaturated flow equation,
+  \textit{Water Resources Research}, \textit{26}(7), 1483--1496,
+  \doi{10.1029/WR026i007p01483}.
+
+\bibitem[{\textit{Choat et~al.}(2012)\textit{Choat, Jansen, Brodribb, Cochard,
+  Delzon, Bhaskar, Bucci, Feild, Gleason, Hacke, Jacobsen, Lens, Maherali,
+  Mart{\'i}nez-Vilalta, Mayr, Mencuccini, Mitchell, Nardini, Pittermann, Pratt,
+  Sperry, Westoby, Wright, and Zanne}}]{choat2012}
+Choat, B., S.~Jansen, T.~J. Brodribb, H.~Cochard, S.~Delzon, R.~Bhaskar, S.~J.
+  Bucci, T.~S. Feild, S.~M. Gleason, U.~G. Hacke, A.~L. Jacobsen, F.~Lens,
+  H.~Maherali, J.~Mart{\'i}nez-Vilalta, S.~Mayr, M.~Mencuccini, P.~J. Mitchell,
+  A.~Nardini, J.~Pittermann, R.~B. Pratt, J.~S. Sperry, M.~Westoby, I.~J.
+  Wright, and A.~E. Zanne (2012), Global convergence in the vulnerability of
+  forests to drought, \textit{Nature}, \textit{491}(7426), 752--5.
+
+\bibitem[{\textit{Christoffersen et~al.}(2016)\textit{Christoffersen, Gloor,
+  Fauset, Fyllas, Galbraith, Baker, Kruijt, Rowland, Fisher, Binks, Sevanto,
+  Xu, Jansen, Choat, Mencuccini, McDowell, and Meir}}]{christoffersen2016}
+Christoffersen, B.~O., M.~Gloor, S.~Fauset, N.~M. Fyllas, D.~R. Galbraith,
+  T.~R. Baker, B.~Kruijt, L.~Rowland, R.~A. Fisher, O.~J. Binks, S.~Sevanto,
+  C.~Xu, S.~Jansen, B.~Choat, M.~Mencuccini, N.~G. McDowell, and P.~Meir
+  (2016), Linking hydraulic traits to tropical forest function in a
+  size-structured and trait-driven model ({TFS v.1-Hydro}),
+  \textit{Geoscientific Model Development}, \textit{9}(11), 4227--4255,
+  \doi{10.5194/gmd-9-4227-2016}.
+
+\bibitem[{\textit{Clapp and Hornberger}(1978)}]{clapp1978}
+Clapp, R.~B., and G.~M. Hornberger (1978), Empirical equations for some soil
+  hydraulic properties, \textit{Water Resources Research}, \textit{14}(4),
+  601--604, \doi{10.1029/WR014i004p00601}.
+
+\bibitem[{\textit{Collatz et~al.}(1991)\textit{Collatz, Ball, Grivet, and
+  Berry}}]{collatz1991}
+Collatz, G., J.~Ball, C.~Grivet, and J.~A. Berry (1991), Physiological and
+  environmental regulation of stomatal conductance, photosynthesis and
+  transpiration: a model that includes a laminar boundary layer,
+  \textit{Agricultural and Forest Meteorology}, \textit{54}(2), 107 -- 136,
+  \doi{http://dx.doi.org/10.1016/0168-1923(91)90002-8}.
+
+\bibitem[{\textit{da~Costa et~al.}(2014)\textit{da~Costa, Metcalfe, Doughty,
+  de~Oliveira, Neto, da~Costa, de~Athaydes Silva~Junior, Arag{\~a}o, Almeida,
+  Galbraith, Rowland, Meir, and Malhi}}]{dacosta2013}
+da~Costa, A.~C., D.~B. Metcalfe, C.~E. Doughty, A.~A. de~Oliveira, G.~F. Neto,
+  M.~C. da~Costa, J.~de~Athaydes Silva~Junior, L.~E. Arag{\~a}o, S.~Almeida,
+  D.~R. Galbraith, L.~M. Rowland, P.~Meir, and Y.~Malhi (2014), Ecosystem
+  respiration and net primary productivity after 8-10 years of experimental
+  through-fall reduction in an eastern {A}mazon forest, \textit{Plant Ecology
+  \& Diversity}, \textit{7}(1-2), 7--24, \doi{10.1080/17550874.2013.798366}.
+
+\bibitem[{\textit{da~Costa et~al.}(2010)\textit{da~Costa, Galbraith, Almeida,
+  Takeshi, Portela, da~Costa, ao~de Athaydes Silva~Junior, Braga,
+  de~Gon\c{c}alves, de~Oliveira, Fisher, Phillips, Metcalfe, Levy, and
+  Meir}}]{dacosta2010}
+da~Costa, A. C.~L., D.~Galbraith, S.~Almeida, B.~Takeshi, T.~Portela,
+  M.~da~Costa, J.~ao~de Athaydes Silva~Junior, A.~P. Braga, P.~H.~L.
+  de~Gon\c{c}alves, A.~A. de~Oliveira, R.~Fisher, O.~L. Phillips, D.~B.
+  Metcalfe, P.~Levy, and P.~Meir (2010), Effect of 7 yr of experimental drought
+  on vegetation dynamics and biomass storage of an eastern {A}mazonian
+  rainforest, \textit{The New Phytologist}, \textit{187}(3), 579--591.
+
+\bibitem[{\textit{Dai et~al.}(2004)\textit{Dai, Dickinson, and Wang}}]{dai2004}
+Dai, Y., R.~E. Dickinson, and Y.-P. Wang (2004), A two-big-leaf model for
+  canopy temperature, photosynthesis, and stomatal conductance, \textit{Journal
+  of Climate}, \textit{17}(12), 2281--2299,
+  \doi{10.1175/1520-0442(2004)017$<$2281:ATMFCT$>$2.0.CO;2}.
+
+\bibitem[{\textit{De~Kauwe et~al.}(2015)\textit{De~Kauwe, Kala, Lin, Pitman,
+  Medlyn, Duursma, Abramowitz, Wang, and Miralles}}]{dekauwe2015}
+De~Kauwe, M.~G., J.~Kala, Y.-S. Lin, A.~J. Pitman, B.~E. Medlyn, R.~A. Duursma,
+  G.~Abramowitz, Y.-P. Wang, and D.~G. Miralles (2015), A test of an optimal
+  stomatal conductance scheme within the {CABLE} land surface model,
+  \textit{Geoscientific Model Development}, \textit{8}(2), 431--452,
+  \doi{10.5194/gmd-8-431-2015}.
+
+\bibitem[{\textit{De~Kauwe et~al.}(2017)\textit{De~Kauwe, Medlyn, Knauer, and
+  Williams}}]{dekauwe2017}
+De~Kauwe, M.~G., B.~E. Medlyn, J.~Knauer, and C.~A. Williams (2017), Ideas and
+  perspectives: how coupled is the vegetation to the boundary layer?,
+  \textit{Biogeosciences}, \textit{14}(19), 4435--4453,
+  \doi{10.5194/bg-14-4435-2017}.
+
+\bibitem[{\textit{Drake et~al.}(2017)\textit{Drake, Power, Duursma, Medlyn,
+  Aspinwall, Choat, Creek, Eamus, Maier, Pfautsch, Smith, Tjoelker, and
+  Tissue}}]{drake2017}
+Drake, J., S.~Power, R.~Duursma, B.~Medlyn, M.~Aspinwall, B.~Choat, D.~Creek,
+  D.~Eamus, C.~Maier, S.~Pfautsch, R.~Smith, M.~Tjoelker, and D.~Tissue (2017),
+  Stomatal and non-stomatal limitations of photosynthesis for four tree species
+  under drought: A comparison of model formulations, \textit{Agricultural and
+  Forest Meteorology}, \textit{247}, 454 -- 466,
+  \doi{https://doi.org/10.1016/j.agrformet.2017.08.026}.
+
+\bibitem[{\textit{Egea et~al.}(2011)\textit{Egea, Verhoef, and
+  Vidale}}]{egea2011}
+Egea, G., A.~Verhoef, and P.~L. Vidale (2011), Towards an improved and more
+  flexible representation of water stress in coupled photosynthesis-stomatal
+  conductance models, \textit{Agricultural and Forest Meteorology},
+  \textit{151}(10), 1370 -- 1384,
+  \doi{https://doi.org/10.1016/j.agrformet.2011.05.019}.
+
+\bibitem[{\textit{Epila et~al.}(2017)\textit{Epila, De~Baerdemaeker, Vergeynst,
+  Maes, Beeckman, and Steppe}}]{epila2017}
+Epila, J., N.~J. De~Baerdemaeker, L.~L. Vergeynst, W.~H. Maes, H.~Beeckman, and
+  K.~Steppe (2017), Capacitive water release and internal leaf water relocation
+  delay drought-induced cavitation in {A}frican {M}aesopsis eminii,
+  \textit{Tree Physiology}, \textit{37}(4), 481--490,
+  \doi{10.1093/treephys/tpw128}.
+
+\bibitem[{\textit{Farquhar et~al.}(1980)\textit{Farquhar, von Caemmerer, and
+  Berry}}]{farquhar1980}
+Farquhar, G.~D., S.~von Caemmerer, and J.~A. Berry (1980), A biochemical model
+  of photosynthetic {CO$_2$} assimilation in leaves of {C$_3$} species,
+  \textit{Planta}, \textit{149}(1), 78--90, \doi{10.1007/BF00386231}.
+
+\bibitem[{\textit{Ficklin and Novick}(2017)}]{ficklin2017}
+Ficklin, D.~L., and K.~A. Novick (2017), Historic and projected changes in
+  vapor pressure deficit suggest a continental-scale drying of the {U}nited
+  {S}tates atmosphere, \textit{Journal of Geophysical Research: Atmospheres},
+  \textit{122}(4), 2061--2079, \doi{10.1002/2016JD025855}.
+
+\bibitem[{\textit{Fisher et~al.}(2006)\textit{Fisher, Williams, Do~Vale,
+  Da~Costa, and Meir}}]{fisher2006}
+Fisher, R.~A., M.~Williams, R.~L. Do~Vale, A.~L. Da~Costa, and P.~Meir (2006),
+  Evidence from {A}mazonian forests is consistent with isohydric control of
+  leaf water potential, \textit{Plant, Cell \& Environment}, \textit{29}(2),
+  151--165, \doi{10.1111/j.1365-3040.2005.01407.x}.
+
+\bibitem[{\textit{Fisher et~al.}(2007)\textit{Fisher, Williams, Costa, Malhi,
+  Costa, Almeida, and Meir}}]{fisher2007}
+Fisher, R.~A., M.~Williams, A.~L.~D. Costa, Y.~Malhi, R.~F.~D. Costa,
+  S.~Almeida, and P.~Meir (2007), The response of an {E}astern {A}mazonian rain
+  forest to drought stress: results and modelling analyses from a throughfall
+  exclusion experiment, \textit{Global Change Biology}, \textit{13}(11),
+  2361--2378, \doi{10.1111/j.1365-2486.2007.01417.x}.
+
+\bibitem[{\textit{Fisher et~al.}(2008)\textit{Fisher, Williams,
+  de~Lourdes~Ruivo, de~Costa, and Meir}}]{fisher2008}
+Fisher, R.~A., M.~Williams, M.~de~Lourdes~Ruivo, A.~L. de~Costa, and P.~Meir
+  (2008), Evaluating climatic and soil water controls on evapotranspiration at
+  two {A}mazonian rainforest sites, \textit{Agricultural and Forest
+  Meteorology}, \textit{148}(6), 850 -- 861,
+  \doi{https://doi.org/10.1016/j.agrformet.2007.12.001}.
+
+\bibitem[{\textit{Flexas et~al.}(2004)\textit{Flexas, Bota, Loreto, Cornic, and
+  Sharkey}}]{flexas2004}
+Flexas, J., J.~Bota, F.~Loreto, G.~Cornic, and T.~D. Sharkey (2004), Diffusive
+  and metabolic limitations to photosynthesis under drought and salinity in
+  {C}3 plants, \textit{Plant Biology}, \textit{6}(3), 269--279,
+  \doi{10.1055/s-2004-820867}.
+
+\bibitem[{\textit{Flexas et~al.}(2012)\textit{Flexas, Barbour, Brendel,
+  Cabrera, Carriqu{\'i}, D{\'i}az-Espejo, Douthe, Dreyer, Ferrio, Gago,
+  Gall{\'e}, Galm{\'e}s, Kodama, Medrano, Niinemets, Peguero-Pina, Pou,
+  Ribas-Carb{\'o}, Tom{\'a}s, Tosens, and Warren}}]{flexas2012}
+Flexas, J., M.~M. Barbour, O.~Brendel, H.~M. Cabrera, M.~Carriqu{\'i},
+  A.~D{\'i}az-Espejo, C.~Douthe, E.~Dreyer, J.~P. Ferrio, J.~Gago,
+  A.~Gall{\'e}, J.~Galm{\'e}s, N.~Kodama, H.~Medrano, {\"U}.~Niinemets, J.~J.
+  Peguero-Pina, A.~Pou, M.~Ribas-Carb{\'o}, M.~Tom{\'a}s, T.~Tosens, and C.~R.
+  Warren (2012), Mesophyll diffusion conductance to {CO}2: An unappreciated
+  central player in photosynthesis, \textit{Plant Science}, \textit{193-194},
+  70 -- 84, \doi{https://doi.org/10.1016/j.plantsci.2012.05.009}.
+
+\bibitem[{\textit{Friedlingstein et~al.}(2014)\textit{Friedlingstein,
+  Meinshausen, Arora, Jones, Anav, Liddicoat, and Knutti}}]{friedlingstein2014}
+Friedlingstein, P., M.~Meinshausen, V.~K. Arora, C.~D. Jones, A.~Anav, S.~K.
+  Liddicoat, and R.~Knutti (2014), Uncertainties in {CMIP}5 climate projections
+  due to carbon cycle feedbacks, \textit{Journal of Climate}, \textit{27}(2),
+  511--526.
+
+\bibitem[{\textit{Gentine et~al.}(2007)\textit{Gentine, Entekhabi, Chehbouni,
+  Boulet, and Duchemin}}]{gentine2007}
+Gentine, P., D.~Entekhabi, A.~Chehbouni, G.~Boulet, and B.~Duchemin (2007),
+  Analysis of evaporative fraction diurnal behaviour, \textit{Agricultural and
+  Forest Meteorology}, \textit{143}(1), 13 -- 29,
+  \doi{https://doi.org/10.1016/j.agrformet.2006.11.002}.
+
+\bibitem[{\textit{Gentine et~al.}(2011)\textit{Gentine, Entekhabi, and
+  Polcher}}]{gentine2011}
+Gentine, P., D.~Entekhabi, and J.~Polcher (2011), The diurnal behavior of
+  evaporative fraction in the soil-vegetation-atmospheric boundary layer
+  continuum, \textit{Journal of Hydrometeorology}, \textit{12}(6), 1530--1546,
+  \doi{10.1175/2011JHM1261.1}.
+
+\bibitem[{\textit{Gentine et~al.}(2016)\textit{Gentine, Gu{\'e}rin, Uriarte,
+  McDowell, and Pockman}}]{gentine2016}
+Gentine, P., M.~Gu{\'e}rin, M.~Uriarte, N.~G. McDowell, and W.~T. Pockman
+  (2016), An allometry-based model of the survival strategies of hydraulic
+  failure and carbon starvation, \textit{Ecohydrology}, \textit{9}(3),
+  529--546, \doi{10.1002/eco.1654}.
+
+\bibitem[{\textit{Giardina et~al.}(2018)\textit{Giardina, Konings, Kennedy,
+  Alemohammad, Oliveira, Uriarte, and Gentine}}]{giardina2018}
+Giardina, F., A.~G. Konings, D.~Kennedy, S.~H. Alemohammad, R.~S. Oliveira,
+  M.~Uriarte, and P.~Gentine (2018), Tall {A}mazonian forests are less
+  sensitive to precipitation variability, \textit{Nature Geoscience},
+  \textit{11}(6), 405--409, \doi{10.1038/s41561-018-0133-5}.
+
+\bibitem[{\textit{Grant et~al.}(2016)\textit{Grant, Wigneron, Jeu, Lawrence,
+  Mialon, Richaume, Bitar, Drusch, van Marle, and Kerr}}]{grant2016}
+Grant, J., J.-P. Wigneron, R.~D. Jeu, H.~Lawrence, A.~Mialon, P.~Richaume,
+  A.~A. Bitar, M.~Drusch, M.~van Marle, and Y.~Kerr (2016), Comparison of
+  {SMOS} and {AMSR-E} vegetation optical depth to four {MODIS}-based vegetation
+  indices, \textit{Remote Sensing of Environment}, \textit{172}, 87 -- 100,
+  \doi{https://doi.org/10.1016/j.rse.2015.10.021}.
+
+\bibitem[{\textit{Green et~al.}(2017)\textit{Green, Konings, Alemohammad,
+  Berry, Entekhabi, Kolassa, Lee, and Gentine}}]{green2017}
+Green, J.~K., A.~G. Konings, S.~H. Alemohammad, J.~Berry, D.~Entekhabi,
+  J.~Kolassa, J.-E. Lee, and P.~Gentine (2017), Regionally strong feedbacks
+  between the atmosphere and terrestrial biosphere, \textit{Nature Geoscience},
+  \textit{10}(6), 410--414, \doi{10.1038/ngeo2957}.
+
+\bibitem[{\textit{Harley et~al.}(1992)\textit{Harley, Thomas, Reynolds, and
+  Strain}}]{harley1992}
+Harley, P.~C., R.~B. Thomas, J.~F. Reynolds, and B.~R. Strain (1992), Modelling
+  photosynthesis of cotton grown in elevated {CO}2, \textit{Plant Cell
+  Environment}, \textit{15}(3), 271--282,
+  \doi{10.1111/j.1365-3040.1992.tb00974.x}.
+
+\bibitem[{\textit{Holbrook et~al.}(2001)\textit{Holbrook, Ahrens, Burns, and
+  Zwieniecki}}]{holbrook2001}
+Holbrook, N.~M., E.~T. Ahrens, M.~J. Burns, and M.~A. Zwieniecki (2001), In
+  vivo observation of cavitation and embolism repair using magnetic resonance
+  imaging, \textit{Plant Physiology}, \textit{126}(1), 27--31,
+  \doi{10.1104/pp.126.1.27}.
+
+\bibitem[{\textit{Huntingford et~al.}(2013)\textit{Huntingford, Zelazowski,
+  Galbraith, Mercado, Sitch, Fisher, Lomas, Walker, Jones, Booth, Malhi,
+  Hemming, Kay, Good, Lewis, Phillips, Atkin, Lloyd, Gloor, Zaragoza-castells,
+  Meir, Betts, Harris, Nobre, Marengo, and Cox}}]{huntingford2013}
+Huntingford, C., P.~Zelazowski, D.~Galbraith, L.~M. Mercado, S.~Sitch,
+  R.~Fisher, M.~Lomas, A.~P. Walker, C.~D. Jones, B.~B.~B. Booth, Y.~Malhi,
+  D.~Hemming, G.~Kay, P.~Good, S.~L. Lewis, O.~L. Phillips, O.~K. Atkin,
+  J.~Lloyd, E.~Gloor, J.~Zaragoza-castells, P.~Meir, R.~Betts, P.~P. Harris,
+  C.~Nobre, J.~Marengo, and P.~M. Cox (2013), Simulated resilience of tropical
+  rainforests to {CO}2-induced climate change, \textit{Nature Geoscience},
+  \textit{6}(4), 268--273.
+
+\bibitem[{\textit{Jackson et~al.}(1996)\textit{Jackson, Canadell, Ehleringer,
+  Mooney, Sala, and Schulze}}]{jackson1996}
+Jackson, R.~B., J.~Canadell, J.~R. Ehleringer, H.~A. Mooney, O.~E. Sala, and
+  E.~D. Schulze (1996), A global analysis of root distributions for terrestrial
+  biomes, \textit{Oecologia}, \textit{108}(3), 389--411,
+  \doi{10.1007/BF00333714}.
+
+\bibitem[{\textit{Jackson et~al.}(2000)\textit{Jackson, Sperry, and
+  Dawson}}]{jackson2000}
+Jackson, R.~B., J.~S. Sperry, and T.~E. Dawson (2000), Root water uptake and
+  transport: using physiological processes in global predictions,
+  \textit{Trends in Plant Science}, \textit{5}(11), 482 -- 488,
+  \doi{https://doi.org/10.1016/S1360-1385(00)01766-0}.
+
+\bibitem[{\textit{Jarvis}(2011)}]{jarvis2011}
+Jarvis, N.~J. (2011), Simple physics-based models of compensatory plant water
+  uptake: concepts and eco-hydrological consequences, \textit{Hydrology and
+  Earth System Sciences}, \textit{15}(11), 3431--3446,
+  \doi{10.5194/hess-15-3431-2011}.
+
+\bibitem[{\textit{Joetzjer et~al.}(2014)\textit{Joetzjer, Delire, Douville,
+  Ciais, Decharme, Fisher, Christoffersen, Calvet, da~Costa, Ferreira, and
+  Meir}}]{joetzjer2014}
+Joetzjer, E., C.~Delire, H.~Douville, P.~Ciais, B.~Decharme, R.~Fisher,
+  B.~Christoffersen, J.~C. Calvet, A.~C.~L. da~Costa, L.~V. Ferreira, and
+  P.~Meir (2014), Predicting the response of the {A}mazon rainforest to
+  persistent drought conditions under current and future climates: a major
+  challenge for global land surface models, \textit{Geoscientific Model
+  Development}, \textit{7}(6), 2933--2950, \doi{10.5194/gmd-7-2933-2014}.
+
+\bibitem[{\textit{Kattge et~al.}(2011)\textit{Kattge, D\'iaz, Lavorel,
+  Prentice, and et~al.}}]{kattge2011}
+Kattge, J., S.~D\'iaz, S.~Lavorel, I.~C. Prentice, and et~al. (2011), {TRY} - a
+  global database of plant traits, \textit{Global Change Biology},
+  \textit{17}(9), 2905--2935, \doi{10.1111/j.1365-2486.2011.02451.x}.
+
+\bibitem[{\textit{Keenan et~al.}(2012)\textit{Keenan, Baker, Barr, Ciais,
+  Davis, Dietze, Dragoni, Gough, Grant, Hollinger, Hufkens, Poulter, McCaughey,
+  Raczka, Ryu, Schaefer, Tian, Verbeeck, Zhao, and Richardson}}]{keenan2012}
+Keenan, T., I.~Baker, A.~Barr, P.~Ciais, K.~Davis, M.~Dietze, D.~Dragoni, C.~M.
+  Gough, R.~Grant, D.~Hollinger, K.~Hufkens, B.~Poulter, H.~McCaughey,
+  B.~Raczka, Y.~Ryu, K.~Schaefer, H.~Tian, H.~Verbeeck, M.~Zhao, and A.~D.
+  Richardson (2012), Terrestrial biosphere model performance for inter-annual
+  variability of land-atmosphere {CO2} exchange, \textit{Global Change
+  Biology}, \textit{18}(6), 1971--1987, \doi{10.1111/j.1365-2486.2012.02678.x}.
+
+\bibitem[{\textit{Klein and Niu}(2014)}]{klein2014}
+Klein, T., and S.~Niu (2014), The variability of stomatal sensitivity to leaf
+  water potential across tree species indicates a continuum between isohydric
+  and anisohydric behaviours, \textit{Functional Ecology}, \textit{28}(6),
+  1313--1320, \doi{10.1111/1365-2435.12289}.
+
+\bibitem[{\textit{Konings and Gentine}(2017a)}]{konings2017a}
+Konings, A.~G., and P.~Gentine (2017a), Global variations in ecosystem-scale
+  isohydricity, \textit{Global Change Biology}, \textit{23}(2), 891--905,
+  \doi{10.1111/gcb.13389}.
+
+\bibitem[{\textit{Konings et~al.}(2016)\textit{Konings, Piles, R{\"o}tzer,
+  McColl, Chan, and Entekhabi}}]{konings2016}
+Konings, A.~G., M.~Piles, K.~R{\"o}tzer, K.~A. McColl, S.~K. Chan, and
+  D.~Entekhabi (2016), Vegetation optical depth and scattering albedo retrieval
+  using time series of dual-polarized l-band radiometer observations,
+  \textit{Remote Sensing of Environment}, \textit{172}, 178 -- 189,
+  \doi{https://doi.org/10.1016/j.rse.2015.11.009}.
+
+\bibitem[{\textit{Konings et~al.}(2017b)\textit{Konings, Williams, and
+  Gentine}}]{konings2017b}
+Konings, A.~G., A.~P. Williams, and P.~Gentine (2017b), Sensitivity of
+  grassland productivity to aridity controlled by stomatal and xylem
+  regulation, \textit{Nature Geoscience}, \textit{10}(4), 284--288,
+  \doi{10.1038/ngeo2903}.
+
+\bibitem[{\textit{Kotowska et~al.}(2015)\textit{Kotowska, Hertel, Rajab, Barus,
+  and Schuldt}}]{kotowska2015}
+Kotowska, M.~M., D.~Hertel, Y.~A. Rajab, H.~Barus, and B.~Schuldt (2015),
+  Patterns in hydraulic architecture from roots to branches in six tropical
+  tree species from cacao agroforestry and their relation to wood density and
+  stem growth, \textit{Frontiers in Plant Science}, \textit{6}, 191,
+  \doi{10.3389/fpls.2015.00191}.
+
+\bibitem[{\textit{Lee et~al.}(2005)\textit{Lee, Oliveira, Dawson, and
+  Fung}}]{lee2005}
+Lee, J.-E., R.~S. Oliveira, T.~E. Dawson, and I.~Fung (2005), Root functioning
+  modifies seasonal climate, \textit{Proceedings of the National Academy of
+  Sciences of the United States of America}, \textit{102}(49), 17,576--17,581,
+  \doi{10.1073/pnas.0508785102}.
+
+\bibitem[{\textit{Lemordant et~al.}(2018)\textit{Lemordant, Gentine, Swann,
+  Cook, and Scheff}}]{lemordant2018}
+Lemordant, L., P.~Gentine, A.~S. Swann, B.~I. Cook, and J.~Scheff (2018),
+  Critical impact of vegetation physiology on the continental hydrologic cycle
+  in response to increasing {CO}2, \textit{Proceedings of the National Academy
+  of Sciences}, \doi{10.1073/pnas.1720712115}.
+
+\bibitem[{\textit{Lin et~al.}(2018)\textit{Lin, Gentine, Huang, Guan, Kimm, and
+  Zhou}}]{lin2018}
+Lin, C., P.~Gentine, Y.~Huang, K.~Guan, H.~Kimm, and S.~Zhou (2018), Diel
+  ecosystem conductance response to vapor pressure deficit is suboptimal and
+  independent of soil moisture, \textit{Agricultural and Forest Meteorology},
+  \textit{250-251}, 24 -- 34,
+  \doi{https://doi.org/10.1016/j.agrformet.2017.12.078}.
+
+\bibitem[{\textit{Mackay et~al.}(2015)\textit{Mackay, Roberts, Ewers, Sperry,
+  McDowell, and Pockman}}]{mackay2015}
+Mackay, D.~S., D.~E. Roberts, B.~E. Ewers, J.~S. Sperry, N.~G. McDowell, and
+  W.~T. Pockman (2015), Interdependence of chronic hydraulic dysfunction and
+  canopy processes can improve integrated models of tree response to drought,
+  \textit{Water Resources Research}, \textit{51}(8), 6156--6176,
+  \doi{10.1002/2015WR017244}.
+
+\bibitem[{\textit{Manzoni et~al.}(2013{\natexlab{a}})\textit{Manzoni, Vico,
+  Palmroth, Porporato, and Katul}}]{manzoni2013b}
+Manzoni, S., G.~Vico, S.~Palmroth, A.~Porporato, and G.~Katul
+  (2013{\natexlab{a}}), Optimization of stomatal conductance for maximum carbon
+  gain under dynamic soil moisture, \textit{Advances in Water Resources},
+  \textit{62}, 90 -- 105,
+  \doi{https://doi.org/10.1016/j.advwatres.2013.09.020}.
+
+\bibitem[{\textit{Manzoni et~al.}(2013{\natexlab{b}})\textit{Manzoni, Vico,
+  Katul, Palmroth, Jackson, and Porporato}}]{manzoni2013}
+Manzoni, S., G.~Vico, G.~Katul, S.~Palmroth, R.~B. Jackson, and A.~Porporato
+  (2013{\natexlab{b}}), Hydraulic limits on maximum plant transpiration and the
+  emergence of the safety-efficiency trade-off, \textit{New Phytologist},
+  \textit{198}(1), 169--178, \doi{10.1111/nph.12126}.
+
+\bibitem[{\textit{McDowell et~al.}(2018)\textit{McDowell, Allen,
+  Anderson-Teixeira, Brando, Brienen, Chambers, Christoffersen, Davies,
+  Doughty, Duque, Espirito-Santo, Fisher, Fontes, Galbraith, Goodsman,
+  Grossiord, Hartmann, Holm, Johnson, Kassim, Keller, Koven, Kueppers, Kumagai,
+  Malhi, McMahon, Mencuccini, Meir, Moorcroft, C., Phillips, Powell, Sierra,
+  Sperry, Warren, Xu, and Xu}}]{mcdowell2018}
+McDowell, N., C.~D. Allen, K.~Anderson-Teixeira, P.~Brando, R.~Brienen,
+  J.~Chambers, B.~Christoffersen, S.~Davies, C.~Doughty, A.~Duque,
+  F.~Espirito-Santo, R.~Fisher, C.~G. Fontes, D.~Galbraith, D.~Goodsman,
+  C.~Grossiord, H.~Hartmann, J.~Holm, D.~J. Johnson, A.~R. Kassim, M.~Keller,
+  C.~Koven, L.~Kueppers, T.~Kumagai, Y.~Malhi, S.~M. McMahon, M.~Mencuccini,
+  P.~Meir, P.~Moorcroft, M.-L.~H. C., O.~L. Phillips, T.~Powell, C.~A. Sierra,
+  J.~Sperry, J.~Warren, C.~Xu, and X.~Xu (2018), Drivers and mechanisms of tree
+  mortality in moist tropical forests, \textit{New Phytologist},
+  \textit{219}(3), 851--869, \doi{10.1111/nph.15027}.
+
+\bibitem[{\textit{McDowell and Allen}(2015)}]{mcdowell2015}
+McDowell, N.~G., and C.~D. Allen (2015), Darcy's law predicts widespread forest
+  mortality under climate warming, \textit{Nature Climate Change},
+  \textit{5}(7), 669--672.
+
+\bibitem[{\textit{McDowell et~al.}(2016)\textit{McDowell, Williams, Xu,
+  Pockman, Dickman, Sevanto, Pangle, Limousin, Plaut, Mackay, Ogee, Domec,
+  Allen, Fisher, Jiang, Muss, Breshears, Rauscher, and Koven}}]{mcdowell2016}
+McDowell, N.~G., A.~P. Williams, C.~Xu, W.~T. Pockman, L.~T. Dickman,
+  S.~Sevanto, R.~Pangle, J.~Limousin, J.~Plaut, D.~S. Mackay, J.~Ogee, J.~C.
+  Domec, C.~D. Allen, R.~A. Fisher, X.~Jiang, J.~D. Muss, D.~D. Breshears,
+  S.~A. Rauscher, and C.~Koven (2016), Multi-scale predictions of massive
+  conifer mortality due to chronic temperature rise, \textit{Nature Climate
+  Change}, \textit{6}, 295--300, \doi{10.1038/nclimate2873}.
+
+\bibitem[{\textit{Medlyn et~al.}(2011)\textit{Medlyn, Duursma, Eamus,
+  Ellsworth, Prentice, Barton, Crous, De~Angelis, Freeman, and
+  Wingate}}]{medlyn2011}
+Medlyn, B.~E., R.~A. Duursma, D.~Eamus, D.~S. Ellsworth, I.~C. Prentice,
+  C.~V.~M. Barton, K.~Y. Crous, P.~De~Angelis, M.~Freeman, and L.~Wingate
+  (2011), Reconciling the optimal and empirical approaches to modelling
+  stomatal conductance, \textit{Global Change Biology}, \textit{17}(6),
+  2134--2144, \doi{10.1111/j.1365-2486.2010.02375.x}.
+
+\bibitem[{\textit{Meinzer et~al.}(2009)\textit{Meinzer, Johnson, Lachenbruch,
+  McCulloh, and Woodruff}}]{meinzer2009}
+Meinzer, F.~C., D.~M. Johnson, B.~Lachenbruch, K.~A. McCulloh, and D.~R.
+  Woodruff (2009), Xylem hydraulic safety margins in woody plants: coordination
+  of stomatal control of xylem tension with hydraulic capacitance,
+  \textit{Functional Ecology}, \textit{23}(5), 922--930,
+  \doi{10.1111/j.1365-2435.2009.01577.x}.
+
+\bibitem[{\textit{Momen et~al.}(2017)\textit{Momen, Wood, Novick, Pangle,
+  Pockman, McDowell, and Konings}}]{momen2017}
+Momen, M., J.~D. Wood, K.~A. Novick, R.~Pangle, W.~T. Pockman, N.~G. McDowell,
+  and A.~G. Konings (2017), Interacting effects of leaf water potential and
+  biomass on vegetation optical depth, \textit{Journal of Geophysical Research:
+  Biogeosciences}, \textit{122}(11), 3031--3046, \doi{10.1002/2017JG004145}.
+
+\bibitem[{\textit{Nepstad et~al.}(1994)\textit{Nepstad, de~Carvalho, Davidson,
+  Jipp, Lefebvre, Negreiros, da~Silva, Stone, Trumbore, and
+  Vieira}}]{nepstad1994}
+Nepstad, D.~C., R.~de~Carvalho, Claudio, E.~A. Davidson, P.~H. Jipp, P.~A.
+  Lefebvre, G.~H. Negreiros, E.~D. da~Silva, T.~A. Stone, S.~E. Trumbore, and
+  S.~Vieira (1994), The role of deep roots in the hydrological and carbon
+  cycles of {A}mazonian forests and pastures, \textit{Nature},
+  \textit{372}(6507), 666.
+
+\bibitem[{\textit{Novick et~al.}(2016{\natexlab{a}})\textit{Novick, Ficklin,
+  Stoy, Williams, Bohrer, Oishi, Papuga, Blanken, Noormets, Sulman, Scott,
+  Wang, and Phillips}}]{novick2016b}
+Novick, K.~A., D.~L. Ficklin, P.~C. Stoy, C.~A. Williams, G.~Bohrer, A.~Oishi,
+  S.~A. Papuga, P.~D. Blanken, A.~Noormets, B.~N. Sulman, R.~L. Scott, L.~Wang,
+  and R.~P. Phillips (2016{\natexlab{a}}), The increasing importance of
+  atmospheric demand for ecosystem water and carbon fluxes, \textit{Nature
+  Climate Change}, \textit{6}(11), 1023--1027.
+
+\bibitem[{\textit{Novick et~al.}(2016{\natexlab{b}})\textit{Novick, Miniat, and
+  Vose}}]{novick2016a}
+Novick, K.~A., C.~F. Miniat, and J.~M. Vose (2016{\natexlab{b}}), Drought
+  limitations to leaf-level gas exchange: results from a model linking stomatal
+  optimization and cohesion-tension theory, \textit{Plant, Cell \&
+  Environment}, \textit{39}(3), 583--596, \doi{10.1111/pce.12657}.
+
+\bibitem[{\textit{Oleson et~al.}(2013)\textit{Oleson, Lawrence, Bonan,
+  Drewniak, Huang, Koven, Levis, Li, Riley, Subin, Swenson, Thornton, Bozbiyik,
+  Fisher, Heald, Kluzek, Lamarque, Lawrence, Leung, Lipscomb, Muszala,
+  Ricciuto, Sacks, Sun, Tang, and Yang}}]{oleson2013}
+Oleson, K.~W., D.~M. Lawrence, G.~B. Bonan, B.~Drewniak, M.~Huang, C.~D. Koven,
+  S.~Levis, F.~Li, W.~J. Riley, Z.~M. Subin, S.~C. Swenson, P.~E. Thornton,
+  A.~Bozbiyik, R.~Fisher, C.~L. Heald, E.~Kluzek, J.-F. Lamarque, P.~J.
+  Lawrence, L.~R. Leung, W.~Lipscomb, S.~Muszala, D.~M. Ricciuto, W.~Sacks,
+  Y.~Sun, J.~Tang, and Z.-L. Yang (2013), Technical description of version 4.5
+  of the {C}ommunity {L}and {M}odel ({CLM}), {NCAR Tech. Note NCAR/TN-503+STR},
+  \textit{National Center for Atmospheric Research, Boulder, Colorado, 420
+  pp.}, \doi{10.5065/D6RR1W7M}.
+
+\bibitem[{\textit{Oliveira et~al.}(2005)\textit{Oliveira, Dawson, Burgess, and
+  Nepstad}}]{oliveira2005}
+Oliveira, R.~S., T.~E. Dawson, S.~S.~O. Burgess, and D.~C. Nepstad (2005),
+  Hydraulic redistribution in three amazonian trees, \textit{Oecologia},
+  \textit{145}(3), 354--363, \doi{10.1007/s00442-005-0108-2}.
+
+\bibitem[{\textit{Powell et~al.}(2013)\textit{Powell, Galbraith,
+  Christoffersen, Harper, Imbuzeiro, Rowland, Almeida, Brando, da~Costa, Costa,
+  Levine, Malhi, Saleska, Sotta, Williams, Meir, and Moorcroft}}]{powell2013}
+Powell, T.~L., D.~R. Galbraith, B.~O. Christoffersen, A.~Harper, H.~M.~A.
+  Imbuzeiro, L.~Rowland, S.~Almeida, P.~M. Brando, A.~C.~L. da~Costa, M.~H.
+  Costa, N.~M. Levine, Y.~Malhi, S.~R. Saleska, E.~Sotta, M.~Williams, P.~Meir,
+  and P.~R. Moorcroft (2013), Confronting model predictions of carbon fluxes
+  with measurements of amazon forests subjected to experimental drought,
+  \textit{New Phytologist}, \textit{200}(2), 350--365, \doi{10.1111/nph.12390}.
+
+\bibitem[{\textit{Powell et~al.}(2018)\textit{Powell, K., R., Lola, R.,
+  Patrick, and R.}}]{powell2018}
+Powell, T.~L., W.~J. K., O.~A.~A. R., C.~A.~C. Lola, S.~S. R., M.~Patrick, and
+  M.~P. R. (2018), Differences in xylem and leaf hydraulic traits explain
+  differences in drought tolerance among mature amazon rainforest trees,
+  \textit{Global Change Biology}, \textit{23}(10), 4280--4293,
+  \doi{10.1111/gcb.13731}.
+
+\bibitem[{\textit{Restaino et~al.}(2016)\textit{Restaino, Peterson, and
+  Littell}}]{restaino2016}
+Restaino, C.~M., D.~L. Peterson, and J.~Littell (2016), Increased water deficit
+  decreases {D}ouglas fir growth throughout western {US} forests,
+  \textit{Proceedings of the National Academy of Sciences}, \textit{113}(34),
+  9557--9562, \doi{10.1073/pnas.1602384113}.
+
+\bibitem[{\textit{Restrepo-Coupe et~al.}(2017)\textit{Restrepo-Coupe, Levine,
+  Christoffersen, Albert, Wu, Costa, Galbraith, Imbuzeiro, Martins, da~Araujo,
+  Malhi, Zeng, Moorcroft, and Saleska}}]{restrepo2017}
+Restrepo-Coupe, N., N.~M. Levine, B.~O. Christoffersen, L.~P. Albert, J.~Wu,
+  M.~H. Costa, D.~Galbraith, H.~Imbuzeiro, G.~Martins, A.~C. da~Araujo, Y.~S.
+  Malhi, X.~Zeng, P.~Moorcroft, and S.~R. Saleska (2017), Do dynamic global
+  vegetation models capture the seasonality of carbon fluxes in the amazon
+  basin? {A} data-model intercomparison, \textit{Global Change Biology},
+  \textit{23}(1), 191--208, \doi{10.1111/gcb.13442}.
+
+\bibitem[{\textit{Rogers et~al.}(2017)\textit{Rogers, Medlyn, Dukes, Bonan,
+  Caemmerer, Dietze, Kattge, Leakey, Mercado, Niinemets, Prentice, Serbin,
+  Sitch, Way, and Zaehle}}]{rogers2017}
+Rogers, A., B.~E. Medlyn, J.~S. Dukes, G.~Bonan, S.~Caemmerer, M.~C. Dietze,
+  J.~Kattge, A.~D.~B. Leakey, L.~M. Mercado, {\"U}.~Niinemets, I.~C. Prentice,
+  S.~P. Serbin, S.~Sitch, D.~A. Way, and S.~Zaehle (2017), A roadmap for
+  improving the representation of photosynthesis in {E}arth system models,
+  \textit{New Phytologist}, \textit{213}(1), 22--42, \doi{10.1111/nph.14283}.
+
+\bibitem[{\textit{Sack et~al.}(2002)\textit{Sack, Melcher, Zwieniecki, and
+  Holbrook}}]{sack2002}
+Sack, L., P.~J. Melcher, M.~A. Zwieniecki, and N.~M. Holbrook (2002), The
+  hydraulic conductance of the angiosperm leaf lamina: a comparison of three
+  measurement methods, \textit{Journal of Experimental Botany},
+  \textit{53}(378), 2177--2184.
+
+\bibitem[{\textit{Seager et~al.}(2015)\textit{Seager, Hooks, Williams, Cook,
+  Nakamura, and Henderson}}]{seager2015}
+Seager, R., A.~Hooks, A.~P. Williams, B.~Cook, J.~Nakamura, and N.~Henderson
+  (2015), Climatology, variability, and trends in the {U.S.} vapor pressure
+  deficit, an important fire-related meteorological quantity, \textit{Journal
+  of Applied Meteorology and Climatology}, \textit{54}(6), 1121--1141,
+  \doi{10.1175/JAMC-D-14-0321.1}.
+
+\bibitem[{\textit{Sellers et~al.}(1996a)\textit{Sellers, Randall, Collatz,
+  Berry, Field, Dazlich, Zhang, Collelo, and Bounoua}}]{sellers1996a}
+Sellers, P.~J., D.~A. Randall, G.~J. Collatz, J.~A. Berry, C.~B. Field, D.~A.
+  Dazlich, C.~Zhang, G.~D. Collelo, and L.~Bounoua (1996a), a revised land
+  surface parameterization ({SiB2}) for atmospheric {GCM}s. part {I}: Model
+  formulation, \textit{Journal of Climate}, \textit{9}(4), 676--705,
+  \doi{10.1175/1520-0442(1996)009$<$0676:ARLSPF$>$2.0.CO;2}.
+
+\bibitem[{\textit{Sellers et~al.}(1996b)\textit{Sellers, Tucker, Collatz, Los,
+  Justice, Dazlich, and Randall}}]{sellers1996b}
+Sellers, P.~J., C.~J. Tucker, G.~J. Collatz, S.~O. Los, C.~O. Justice, D.~A.
+  Dazlich, and D.~A. Randall (1996b), A revised land surface parameterization
+  ({SiB}2) for atmospheric {GCM}s. part {II}: The generation of global fields
+  of terrestrial biophysical parameters from satellite data, \textit{Journal of
+  Climate}, \textit{9}(4), 706--737,
+  \doi{{10.1175/1520-0442(1996)009$<$0706:ARLSPF$>$2.0.CO;2}}.
+
+\bibitem[{\textit{Seneviratne et~al.}(2006)\textit{Seneviratne, L\"uthi,
+  Litschi, and Sch\"ar}}]{seneviratne2006}
+Seneviratne, S.~I., D.~L\"uthi, M.~Litschi, and C.~Sch\"ar (2006),
+  Land-atmosphere coupling and climate change in {E}urope, \textit{Nature},
+  \textit{443}(7108), 205--9.
+
+\bibitem[{\textit{Simonin et~al.}(2015)\textit{Simonin, Burns, Choat, Barbour,
+  Dawson, and Franks}}]{simonin2015}
+Simonin, K.~A., E.~Burns, B.~Choat, M.~M. Barbour, T.~E. Dawson, and P.~J.
+  Franks (2015), Increasing leaf hydraulic conductance with transpiration rate
+  minimizes the water potential drawdown from stem to leaf, \textit{Journal of
+  Experimental Botany}, \textit{66}(5), 1303--1315, \doi{10.1093/jxb/eru481}.
+
+\bibitem[{\textit{Sperry and Love}(2015)}]{sperry2015}
+Sperry, J.~S., and D.~M. Love (2015), What plant hydraulics can tell us about
+  responses to climate-change droughts, \textit{New Phytologist},
+  \textit{207}(1), 14--27, \doi{10.1111/nph.13354}.
+
+\bibitem[{\textit{Sperry et~al.}(1998)\textit{Sperry, Adler, Campbell, and
+  Comstock}}]{sperry1998}
+Sperry, J.~S., F.~R. Adler, G.~S. Campbell, and J.~P. Comstock (1998),
+  Limitation of plant water use by rhizosphere and xylem conductance: results
+  from a model, \textit{Plant Cell Environment}, \textit{21}(4), 347--359,
+  \doi{10.1046/j.1365-3040.1998.00287.x}.
+
+\bibitem[{\textit{Sperry et~al.}(2017)\textit{Sperry, Venturas, Anderegg,
+  Mencuccini, Mackay, Wang, and Love}}]{sperry2017}
+Sperry, J.~S., M.~D. Venturas, W.~R.~L. Anderegg, M.~Mencuccini, D.~S. Mackay,
+  Y.~Wang, and D.~M. Love (2017), Predicting stomatal responses to the
+  environment from the optimization of photosynthetic gain and hydraulic cost,
+  \textit{Plant, Cell \& Environment}, \textit{40}(6), 816--830,
+  \doi{10.1111/pce.12852}, pCE-16-0541.R1.
+
+\bibitem[{\textit{Stocker et~al.}(2018)\textit{Stocker, Zscheischler, Keenan,
+  Prentice, Pe{\~n}uelas, and Seneviratne}}]{stocker2018}
+Stocker, B.~D., J.~Zscheischler, T.~F. Keenan, I.~C. Prentice, J.~Pe{\~n}uelas,
+  and S.~I. Seneviratne (2018), Quantifying soil moisture impacts on light use
+  efficiency across biomes, \textit{New Phytologist}, \textit{218}(4),
+  1430--1449, \doi{10.1111/nph.15123}.
+
+\bibitem[{\textit{Tang et~al.}(2015)\textit{Tang, Riley, and Niu}}]{tang2015}
+Tang, J., W.~J. Riley, and J.~Niu (2015), Incorporating root hydraulic
+  redistribution in {CLM}4.5: {E}ffects on predicted site and global
+  evapotranspiration, soil moisture, and water storage, \textit{Journal of
+  Advances in Modeling Earth Systems}, \textit{7}(4), 1828--1848,
+  \doi{10.1002/2015MS000484}.
+
+\bibitem[{\textit{Tardieu and Simonneau}(1998)}]{tardieu1998}
+Tardieu, F., and T.~Simonneau (1998), Variability among species of stomatal
+  control under fluctuating soil water status and evaporative demand: modelling
+  isohydric and anisohydric behaviours, \textit{Journal of Experimental
+  Botany}, \textit{49}, 419--432.
+
+\bibitem[{\textit{Thornton and Zimmermann}(2007)}]{thornton2007}
+Thornton, P.~E., and N.~E. Zimmermann (2007), An improved canopy integration
+  scheme for a land surface model with prognostic canopy structure,
+  \textit{Journal of Climate}, \textit{20}(15), 3902--3923,
+  \doi{10.1175/JCLI4222.1}.
+
+\bibitem[{\textit{Trugman et~al.}(2018)\textit{Trugman, Medvigy, Mankin, and
+  Anderegg}}]{trugman2018}
+Trugman, A.~T., D.~Medvigy, J.~S. Mankin, and W.~R.~L. Anderegg (2018), Soil
+  moisture stress as a major driver of carbon cycle uncertainty,
+  \textit{Geophysical Research Letters}, \textit{45},
+  \doi{10.1029/2018GL078131}.
+
+\bibitem[{\textit{Tyree and Sperry}(1989)}]{tyree1989}
+Tyree, M.~T., and J.~S. Sperry (1989), Vulnerability of xylem to cavitation and
+  embolism, \textit{Annual Review of Plant Physiology and Plant Molecular
+  Biology}, \textit{40}(1), 19--36, \doi{10.1146/annurev.pp.40.060189.000315}.
+
+\bibitem[{\textit{Ukkola et~al.}(2016)\textit{Ukkola, Kauwe, Pitman, Best,
+  Abramowitz, Haverd, Decker, and Haughton}}]{ukkola2016}
+Ukkola, A.~M., M.~G.~D. Kauwe, A.~J. Pitman, M.~J. Best, G.~Abramowitz,
+  V.~Haverd, M.~Decker, and N.~Haughton (2016), Land surface models
+  systematically overestimate the intensity, duration and magnitude of
+  seasonal-scale evaporative droughts, \textit{Environmental Research Letters},
+  \textit{11}(10), 104,012.
+
+\bibitem[{\textit{Verhoef and Egea}(2014)}]{verhoef2014}
+Verhoef, A., and G.~Egea (2014), Modeling plant transpiration under limited
+  soil water: Comparison of different plant and soil hydraulic
+  parameterizations and preliminary implications for their use in land surface
+  models, \textit{Agricultural and Forest Meteorology}, \textit{191}, 22--32,
+  \doi{https://doi.org/10.1016/j.agrformet.2014.02.009}.
+
+\bibitem[{\textit{Warren et~al.}(2015)\textit{Warren, Hanson, Iversen, Kumar,
+  Walker, and Wullschleger}}]{warren2015}
+Warren, J.~M., P.~J. Hanson, C.~M. Iversen, J.~Kumar, A.~P. Walker, and S.~D.
+  Wullschleger (2015), Root structural and functional dynamics in terrestrial
+  biosphere models - evaluation and recommendations, \textit{New Phytologist},
+  \textit{205}(1), 59--78, \doi{10.1111/nph.13034}.
+
+\bibitem[{\textit{Williams et~al.}(2013)\textit{Williams, Allen, Macalady,
+  Griffin, Woodhouse, Meko, Swetnam, Rauscher, Seager, Grissino-Mayer, Dean,
+  Cook, Gangodagamage, Cai, and Mcdowell}}]{williams2013}
+Williams, A.~P., C.~D. Allen, A.~K. Macalady, D.~Griffin, C.~A. Woodhouse,
+  D.~M. Meko, T.~W. Swetnam, S.~A. Rauscher, R.~Seager, H.~Grissino-Mayer,
+  J.~S. Dean, E.~R. Cook, C.~Gangodagamage, M.~Cai, and N.~G. Mcdowell (2013),
+  Temperature as a potent driver of regional forest drought stress and tree
+  mortality, \textit{Nature Climate Change}, \textit{3}(3), 292--297.
+
+\bibitem[{\textit{Williams et~al.}(1996)\textit{Williams, Rastetter, Fernandes,
+  Goulden, Wofsy, Shaver, Melillo, Munger, Fan, and
+  Nadelhoffer}}]{williams1996}
+Williams, M., E.~B. Rastetter, D.~N. Fernandes, M.~L. Goulden, S.~C. Wofsy,
+  G.~R. Shaver, J.~M. Melillo, J.~W. Munger, S.-M. Fan, and K.~J. Nadelhoffer
+  (1996), Modelling the soil-plant-atmosphere continuum in a {Q}uercus-{A}cer
+  stand at {H}arvard {F}orest: the regulation of stomatal conductance by light,
+  nitrogen and soil/plant hydraulic properties, \textit{Plant, Cell \&
+  Environment}, \textit{19}(8), 911--927,
+  \doi{10.1111/j.1365-3040.1996.tb00456.x}.
+
+\bibitem[{\textit{Williams et~al.}(2001)\textit{Williams, Law, Anthoni, and
+  Unsworth}}]{williams2001}
+Williams, M., B.~E. Law, P.~M. Anthoni, and M.~H. Unsworth (2001), Use of a
+  simulation model and ecosystem flux data to examine carbon-water interactions
+  in ponderosa pine., \textit{Tree Physiology}, \textit{21}(5), 287 -- 298.
+
+\bibitem[{\textit{Xu et~al.}(2016)\textit{Xu, Medvigy, Powers, Becknell, and
+  Guan}}]{xu2016}
+Xu, X., D.~Medvigy, J.~S. Powers, J.~M. Becknell, and K.~Guan (2016), Diversity
+  in plant hydraulic traits explains seasonal and inter-annual variations of
+  vegetation dynamics in seasonally dry tropical forests, \textit{New
+  Phytologist}, \textit{212}(1), 80--95, \doi{10.1111/nph.14009}, 2015-20772.
+
+\bibitem[{\textit{Zhou et~al.}(2013)\textit{Zhou, Duursma, Medlyn, Kelly, and
+  Prentice}}]{zhou2013}
+Zhou, S., R.~A. Duursma, B.~E. Medlyn, J.~W. Kelly, and I.~C. Prentice (2013),
+  How should we model plant responses to drought? {A}n analysis of stomatal and
+  non-stomatal responses to water stress, \textit{Agricultural and Forest
+  Meteorology}, \textit{182-183}, 204 -- 214,
+  \doi{https://doi.org/10.1016/j.agrformet.2013.05.009}.
+
+\end{thebibliography}
