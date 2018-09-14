@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 SEP 2018 10:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 SEP 2018 10:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -673,20 +673,11 @@ el-op-ment ver-sion r270, www.github.com/ESCOMP/ctsm/releases/tag/clm4_5_18_r27
 0), 
  []
 
-<figs/roots.pdf, id=83, 289.08pt x 216.81pt>
-File: figs/roots.pdf Graphic file (type pdf)
- <use figs/roots.pdf>
-Package pdftex.def Info: figs/roots.pdf used on input line 490.
-(pdftex.def)             Requested size: 240.0pt x 179.99857pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2680) has occurred while \output is active []
 
- [11 <./figs/roots.pdf>]
-Overfull \hbox (5.51501pt too wide) in paragraph at lines 535--542
+ [11]
+Overfull \hbox (5.51501pt too wide) in paragraph at lines 527--534
 []\T1/ntxtlf/m/n/10 We high-light the soil mois-ture at 50 cm depth, but sim-i-
 lar pat-terns are ob-served through- 
  []
@@ -696,24 +687,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 578.
+(Font)              scaled to size 9.0pt on input line 570.
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--578
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 []\T1/ntxtlf/b/n/9 Table 2. \T1/ntxtlf/m/n/9 Root-zone soil po-ten-tial $[]$ (M
 Pa) ter-ciles. The two cut-points are used to di-vide the points in each
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 590--590
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
 []$[]$\T1/ntxtlf/m/n/10 SMS val-ues cor-re-spond to daily mean root-fraction we
 ighted soil po-ten-tial.
  []
 
-
-Underfull \vbox (badness 7116) has occurred while \output is active []
-
- [13]
-Overfull \hbox (1.17496pt too wide) in paragraph at lines 615--619
+[13]
+Overfull \hbox (1.17496pt too wide) in paragraph at lines 607--611
 \T1/ntxtlf/m/n/10 fects the ver-ti-cal dis-tri-bu-tion of soil wa-ter (Fig-ure 
 10[], Supp Fig A.7[]), as SMS tends to achieve 
  []
@@ -732,99 +720,105 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
 [18]
-Overfull \hbox (0.3083pt too wide) in paragraph at lines 815--816
+Overfull \hbox (0.3083pt too wide) in paragraph at lines 807--808
 []\T1/ntxtlf/m/n/10 PHS mod-els wa-ter stress ($\OML/ntxmi/m/it/10 f[]$\T1/ntxt
 lf/m/n/10 ) as a sig-moidal func-tion of leaf wa-ter po-ten-tial, which 
  []
 
-[19] [20] <figs/T.pdf, id=137, 505.89pt x 469.755pt>
+[19]
+Overfull \hbox (1.37502pt too wide) in paragraph at lines 834--835
+[]\T1/ntxtlf/m/n/10 Observational data col-lec-tion is a prod-uct of CNPQ grant
+ 457914/2013-0/MCTI/CNPq/ 
+ []
+
+[20] <figs/T.pdf, id=118, 505.89pt x 469.755pt>
 File: figs/T.pdf Graphic file (type pdf)
  <use figs/T.pdf>
-Package pdftex.def Info: figs/T.pdf used on input line 849.
+Package pdftex.def Info: figs/T.pdf used on input line 844.
 (pdftex.def)             Requested size: 360.0pt x 334.28818pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 853--853
-[]\T1/ntxtlf/b/n/9 Figure  3. \T1/ntxtlf/m/n/9 Mod-eled ver-sus ob-served daily
+Underfull \hbox (badness 10000) in paragraph at lines 848--848
+[]\T1/ntxtlf/b/n/9 Figure  2. \T1/ntxtlf/m/n/9 Mod-eled ver-sus ob-served daily
  to-tal tran-spi-ra-tion. Ob-ser-va-tions are de-rived from field ob-ser-va-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 853--853
+Underfull \hbox (badness 10000) in paragraph at lines 848--848
 \T1/ntxtlf/m/n/9 tions of sap flux ve-loc-ity (see Sec-tion 3[]). (a,b) SMS con
 -figua-tion, un-der am-bi-ent con-di-tions and 60% TFE.
  []
 
 [21
 
- <./figs/T.pdf>] <figs/fctr_ts.pdf, id=144, 505.89pt x 361.35pt>
+ <./figs/T.pdf>] <figs/fctr_ts.pdf, id=125, 505.89pt x 361.35pt>
 File: figs/fctr_ts.pdf Graphic file (type pdf)
 
 <use figs/fctr_ts.pdf>
-Package pdftex.def Info: figs/fctr_ts.pdf used on input line 860.
+Package pdftex.def Info: figs/fctr_ts.pdf used on input line 855.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 864--864
-[]\T1/ntxtlf/b/n/9 Figure  4. \T1/ntxtlf/m/n/9 (a-f) Time-series of daily to-ta
+Underfull \hbox (badness 10000) in paragraph at lines 859--859
+[]\T1/ntxtlf/b/n/9 Figure  3. \T1/ntxtlf/m/n/9 (a-f) Time-series of daily to-ta
 l tran-spi-ra-tion (mm/d), from (a,b) ob-ser-va-tions, (c,d) SMS model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 864--864
+Underfull \hbox (badness 10000) in paragraph at lines 859--859
 []\T1/ntxtlf/m/n/9 (g-j) Dif-fer-ence be-tween mod-eled and ob-served tran-spi-
 ra-tion (mm/d), for (g,h) SMS and (i,j) PHS un-der
  []
 
 [22
 
- <./figs/fctr_ts.pdf>] <figs/sm2.pdf, id=168, 505.89pt x 361.35pt>
+ <./figs/fctr_ts.pdf>] <figs/sm2.pdf, id=148, 505.89pt x 361.35pt>
 File: figs/sm2.pdf Graphic file (type pdf)
 
 <use figs/sm2.pdf>
-Package pdftex.def Info: figs/sm2.pdf used on input line 873.
+Package pdftex.def Info: figs/sm2.pdf used on input line 868.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
-[]\T1/ntxtlf/b/n/9 Figure  5. \T1/ntxtlf/m/n/9 Vol-u-met-ric soil wa-ter con-te
+Underfull \hbox (badness 10000) in paragraph at lines 872--872
+[]\T1/ntxtlf/b/n/9 Figure  4. \T1/ntxtlf/m/n/9 Vol-u-met-ric soil wa-ter con-te
 nt (-) over time un-der am-bi-ent and TFE con-di-tions at a depth of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 872--872
 \T1/ntxtlf/m/n/9 50cm. (a/b) SMS (c/d) PHS. Ar-rows in-di-cate start of TFE. Su
 p-ple-men-tary Fig-ure A.8[] plots 7 other soil
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 872--872
 \T1/ntxtlf/m/n/9 depths. Note that SMS can tend to `stick' at wa-ter con-tent o
 f 0.1 dur-ing the dry sea-son, which cor-re-sponds to
  []
 
-<figs/vwp.pdf, id=169, 505.89pt x 289.08pt>
+<figs/vwp.pdf, id=149, 505.89pt x 289.08pt>
 File: figs/vwp.pdf Graphic file (type pdf)
  <use figs/vwp.pdf>
-Package pdftex.def Info: figs/vwp.pdf used on input line 884.
+Package pdftex.def Info: figs/vwp.pdf used on input line 879.
 (pdftex.def)             Requested size: 360.0pt x 205.71579pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 891--891
-[]\T1/ntxtlf/b/n/9 Figure  6. \T1/ntxtlf/m/n/9 (a,b) 2003 dry sea-son (Septembe
+Underfull \hbox (badness 10000) in paragraph at lines 886--886
+[]\T1/ntxtlf/b/n/9 Figure  5. \T1/ntxtlf/m/n/9 (a,b) 2003 dry sea-son (Septembe
 r-October-November) di-ur-nal mean of mod-eled veg-e-ta-tion wa-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 891--891
+Underfull \hbox (badness 10000) in paragraph at lines 886--886
 \T1/ntxtlf/m/n/9 po-ten-tial un-der am-bi-ent and TFE con-di-tions. Curves are 
 drawn for sun-lit leaf, shaded leaf, stem, and root
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 891--891
+Underfull \hbox (badness 10000) in paragraph at lines 886--886
 []\T1/ntxtlf/m/n/9 (c) Monthly mean mid-day (12h-14h) veg-e-ta-tion wa-ter po-t
 en-tial un-der am-bi-ent (solid line) and TFE (dot-ted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 891--891
+Underfull \hbox (badness 10000) in paragraph at lines 886--886
 \T1/ntxtlf/m/n/9 line) con-di-tions. Here curves are drawn only for sun-lit lea
 f and root wa-ter po-ten-tial. The ar-row in-di-cates the
  []
@@ -835,120 +829,120 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [23
 
  <./figs/sm2.pdf>] [24 <./figs/vwp.pdf>]
-<figs/fig4.pdf, id=214, 505.89pt x 289.08pt>
+<figs/fig4.pdf, id=195, 505.89pt x 289.08pt>
 File: figs/fig4.pdf Graphic file (type pdf)
  <use figs/fig4.pdf>
-Package pdftex.def Info: figs/fig4.pdf used on input line 899.
+Package pdftex.def Info: figs/fig4.pdf used on input line 894.
 (pdftex.def)             Requested size: 360.0pt x 205.71579pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 904--904
-[]\T1/ntxtlf/b/n/9 Figure  7. \T1/ntxtlf/m/n/9 2003 dry sea-son (SON) di-ur-nal
+Underfull \hbox (badness 10000) in paragraph at lines 899--899
+[]\T1/ntxtlf/b/n/9 Figure  6. \T1/ntxtlf/m/n/9 2003 dry sea-son (SON) di-ur-nal
  mean wa-ter stress func-tion for (a) SMS, and (b) PHS. Note that
  []
 
 [25
 
- <./figs/fig4.pdf>] <figs/vpdstress.pdf, id=222, 505.89pt x 361.35pt>
+ <./figs/fig4.pdf>] <figs/vpdstress.pdf, id=203, 505.89pt x 361.35pt>
 File: figs/vpdstress.pdf Graphic file (type pdf)
 
 <use figs/vpdstress.pdf>
-Package pdftex.def Info: figs/vpdstress.pdf used on input line 911.
+Package pdftex.def Info: figs/vpdstress.pdf used on input line 906.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--917
-[]\T1/ntxtlf/b/n/9 Figure  8. \T1/ntxtlf/m/n/9 Wa-ter stress fac-tor ver-sus va
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
+[]\T1/ntxtlf/b/n/9 Figure  7. \T1/ntxtlf/m/n/9 Wa-ter stress fac-tor ver-sus va
 -por pres-sure deficit (2002-2003), con-strained to timesteps with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--917
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
 \T1/ntxtlf/m/n/9 down-welling short-wave ra-di-a-tion be-tween 400 and 425 W/m2
  (n=515). Ra-di-a-tion is con-trolled to high-light
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--917
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
 \T1/ntxtlf/m/n/9 the re-la-tion-ship with VPD, the re-verse (con-trol-ling for 
 VPD) is shown in Sup-ple-men-tary Fig-ure A.4[]. For SMS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--917
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
 \T1/ntxtlf/m/n/9 (a,b), data are sub-di-vided based on av-er-age soil ma-tric p
 o-ten-tial, weighted by root frac-tion. For PHS (c,d),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--917
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
 \T1/ntxtlf/m/n/9 data are sub-di-vided based on predawn (5h) root wa-ter po-ten
 -tial. Blue dots rep-re-sent the wettest ter-cile, yel-low
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--917
+Underfull \hbox (badness 10000) in paragraph at lines 912--912
 \T1/ntxtlf/m/n/9 dots rep-re-sent the in-ter-me-di-ate ter-cile, and red dots r
 ep-re-sent the dri-est ter-cile (val-ues defin-ing each ter-cile are
  []
 
 [26
 
- <./figs/vpdstress.pdf>] <figs/gpp.pdf, id=229, 505.89pt x 361.35pt>
+ <./figs/vpdstress.pdf>] <figs/gpp.pdf, id=210, 505.89pt x 361.35pt>
 File: figs/gpp.pdf Graphic file (type pdf)
 
 <use figs/gpp.pdf>
-Package pdftex.def Info: figs/gpp.pdf used on input line 924.
+Package pdftex.def Info: figs/gpp.pdf used on input line 919.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--927
-[]\T1/ntxtlf/b/n/9 Figure  9. \T1/ntxtlf/m/n/9 (a-d) Daily stress fac-tor (mid-
+Underfull \hbox (badness 10000) in paragraph at lines 922--922
+[]\T1/ntxtlf/b/n/9 Figure  8. \T1/ntxtlf/m/n/9 (a-d) Daily stress fac-tor (mid-
 day, av-er-aged over 12h-14h) and (e-h) GPP (daily to-tal) over 2002-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--927
+Underfull \hbox (badness 10000) in paragraph at lines 922--922
 \T1/ntxtlf/m/n/9 2003 un-der am-bi-ent (left col-umn) and TFE (right col-umn) c
 on-di-tions. Out-put from the SMS con-fig-u-ra-tion
  []
 
 [27
 
- <./figs/gpp.pdf>] <figs/smp.jpg, id=462, 2810.5pt x 2007.5pt>
+ <./figs/gpp.pdf>] <figs/smp.jpg, id=443, 2810.5pt x 2007.5pt>
 File: figs/smp.jpg Graphic file (type jpg)
 
 <use figs/smp.jpg>
-Package pdftex.def Info: figs/smp.jpg used on input line 936.
+Package pdftex.def Info: figs/smp.jpg used on input line 931.
 (pdftex.def)             Requested size: 360.0pt x 257.12454pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 941--941
-[]\T1/ntxtlf/b/n/9 Figure  10. \T1/ntxtlf/m/n/9 Ver-ti-cal pro-file of soil wa-
-ter con-tent (by vol-ume) over 2003 un-der 60% through-fall ex-clu-sion,
+Underfull \hbox (badness 10000) in paragraph at lines 936--936
+[]\T1/ntxtlf/b/n/9 Figure  9. \T1/ntxtlf/m/n/9 Ver-ti-cal pro-file of soil wa-t
+er con-tent (by vol-ume) over 2003 un-der 60% through-fall ex-clu-sion, for
  []
 
-<figs/rwu.pdf, id=463, 505.89pt x 361.35pt>
+<figs/rwu.pdf, id=444, 505.89pt x 361.35pt>
 File: figs/rwu.pdf Graphic file (type pdf)
  <use figs/rwu.pdf>
-Package pdftex.def Info: figs/rwu.pdf used on input line 947.
+Package pdftex.def Info: figs/rwu.pdf used on input line 942.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 952--952
-[]\T1/ntxtlf/b/n/9 Figure  11. \T1/ntxtlf/m/n/9 Binned box-plot of root wa-ter 
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
+[]\T1/ntxtlf/b/n/9 Figure  10. \T1/ntxtlf/m/n/9 Binned box-plot of root wa-ter 
 up-take ver-sus soil po-ten-tial for Soil Layer 5 (2002-3). Red lines
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 952--952
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/ntxtlf/m/n/9 mark the me-dian, with boxes span-ning the in-terquar-tile ran
 ge. Bin widths are 0.25 MPa for SMS and 0.1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 952--952
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/ntxtlf/m/n/9 MPa for PHS. Soil Layer 5 is shown, be-cause it is close enoug
 h to the sur-face (20 to 32 cm) to ex-pe-ri-ence a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 952--952
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/ntxtlf/m/n/9 sig-nif-i-cant range in soil po-ten-tial, and it has a large r
 oot frac-tion (14.4%, only Soil Layer 6 has a larger root
  []
@@ -959,19 +953,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [28
 
  <./figs/smp.jpg>] [29 <./figs/rwu.pdf>]
-<figs/qdry.pdf, id=473, 505.89pt x 361.35pt>
+<figs/qdry.pdf, id=454, 505.89pt x 361.35pt>
 File: figs/qdry.pdf Graphic file (type pdf)
  <use figs/qdry.pdf>
-Package pdftex.def Info: figs/qdry.pdf used on input line 960.
+Package pdftex.def Info: figs/qdry.pdf used on input line 955.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 965--965
-[]\T1/ntxtlf/b/n/9 Figure  12. \T1/ntxtlf/m/n/9 2003 dry sea-son (SON) cu-mu-la
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
+[]\T1/ntxtlf/b/n/9 Figure  11. \T1/ntxtlf/m/n/9 2003 dry sea-son (SON) cu-mu-la
 -tive root wa-ter up-take and pre-cip-i-ta-tion. (a) Cu-mu-la-tive pre-cip-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 965--965
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
 \T1/ntxtlf/m/n/9 i-ta-tion over time un-der am-bi-ent con-di-tions (b,c) Cu-mu-
 la-tive wa-ter up-take over time from above and be-low
  []
@@ -979,67 +973,67 @@ la-tive wa-ter up-take over time from above and be-low
 [30
 
 
- <./figs/qdry.pdf>] <figs/hr.pdf, id=480, 505.89pt x 289.08pt>
+ <./figs/qdry.pdf>] <figs/hr.pdf, id=461, 505.89pt x 289.08pt>
 File: figs/hr.pdf Graphic file (type pdf)
 
 <use figs/hr.pdf>
-Package pdftex.def Info: figs/hr.pdf used on input line 972.
+Package pdftex.def Info: figs/hr.pdf used on input line 967.
 (pdftex.def)             Requested size: 360.0pt x 205.71579pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 975--975
-[]\T1/ntxtlf/b/n/9 Figure  13. \T1/ntxtlf/m/n/9 To-tal hy-draulic re-dis-tri-bu
+Underfull \hbox (badness 10000) in paragraph at lines 970--970
+[]\T1/ntxtlf/b/n/9 Figure  12. \T1/ntxtlf/m/n/9 To-tal hy-draulic re-dis-tri-bu
 -tion (cm) by month across 2003. For (a) am-bi-ent through-fall con-di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 975--975
+Underfull \hbox (badness 10000) in paragraph at lines 970--970
 \T1/ntxtlf/m/n/9 tions, and (b) 60% through-fall ex-clu-sion. Darker shad-ing s
 hows por-tion of HR at night [6pm,6am), lighter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 975--975
+Underfull \hbox (badness 10000) in paragraph at lines 970--970
 \T1/ntxtlf/m/n/9 shad-ing shows por-tion of HR dur-ing the day [6am,6pm). To-ta
 l HR refers to the sum of all neg-a-tive root wa-ter
  []
 
-<figs/t_err.pdf, id=481, 505.89pt x 361.35pt>
+<figs/t_err.pdf, id=462, 505.89pt x 361.35pt>
 File: figs/t_err.pdf Graphic file (type pdf)
  <use figs/t_err.pdf>
-Package pdftex.def Info: figs/t_err.pdf used on input line 981.
+Package pdftex.def Info: figs/t_err.pdf used on input line 976.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--991
-[]\T1/ntxtlf/b/n/9 Figure  14. \T1/ntxtlf/m/n/9 Dif-fer-ence be-tween mod-eled 
+Underfull \hbox (badness 10000) in paragraph at lines 986--986
+[]\T1/ntxtlf/b/n/9 Figure  13. \T1/ntxtlf/m/n/9 Dif-fer-ence be-tween mod-eled 
 and ob-served tran-spi-ra-tion (mm/d) ver-sus model soil po-ten-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--991
+Underfull \hbox (badness 10000) in paragraph at lines 986--986
 \T1/ntxtlf/m/n/9 (MPa), for (a,b) SMS and (c,d) PHS. Solid lines are drawn at t
 he me-dian, bin-ning points ev-ery 0.2MPa for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--991
+Underfull \hbox (badness 10000) in paragraph at lines 986--986
 \T1/ntxtlf/m/n/9 SMS and 0.05 MPa for PHS (note the dif-fer-ent soil po-ten-tia
 l axes). Dot-ted lines are drawn at zero, where
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--991
+Underfull \hbox (badness 10000) in paragraph at lines 986--986
 []\T1/ntxtlf/m/n/9 The two mod-els use dif-fer-ent root wa-ter up-take paradigm
 s, from which we de-fine dif-fer-ent op-er-a-tors for col-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--991
+Underfull \hbox (badness 10000) in paragraph at lines 986--986
 \T1/ntxtlf/m/n/9 umn ef-fec-tive soil po-ten-tial. For SMS we av-er-age over th
 e soil col-umn weighted by root frac-tion and over
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--991
+Underfull \hbox (badness 10000) in paragraph at lines 986--986
 \T1/ntxtlf/m/n/9 time (daily mean). For PHS we use predawn (5h) root wa-ter po-
 ten-tial. Based on avail-able ob-ser-va-tions, n =
  []
@@ -1050,45 +1044,51 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [31
 
  <./figs/hr.pdf>] [32 <./figs/t_err.pdf>]
-<figs/ens.pdf, id=2197, 505.89pt x 289.08pt>
+<figs/roots.pdf, id=2178, 289.08pt x 216.81pt>
+File: figs/roots.pdf Graphic file (type pdf)
+ <use figs/roots.pdf>
+Package pdftex.def Info: figs/roots.pdf used on input line 1002.
+(pdftex.def)             Requested size: 240.0pt x 179.99857pt.
+
+<figs/ens.pdf, id=2179, 505.89pt x 289.08pt>
 File: figs/ens.pdf Graphic file (type pdf)
  <use figs/ens.pdf>
-Package pdftex.def Info: figs/ens.pdf used on input line 1008.
+Package pdftex.def Info: figs/ens.pdf used on input line 1010.
 (pdftex.def)             Requested size: 360.0pt x 205.71579pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1010--1010
-[]\T1/ntxtlf/b/n/9 Figure  A.1. \T1/ntxtlf/m/n/9 Re-sults of the PHS pa-ram-e-t
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1012
+[]\T1/ntxtlf/b/n/9 Figure  A.2. \T1/ntxtlf/m/n/9 Re-sults of the PHS pa-ram-e-t
 er tun-ing ex-er-cise. The main text PHS sim-u-la-tion was cho-sen to
  []
 
 [33
 
 
- <./figs/ens.pdf>] <figs/suppfpsn.pdf, id=2204, 361.35pt x 216.81pt>
+ <./figs/roots.pdf> <./figs/ens.pdf>]
+<figs/suppfpsn.pdf, id=2204, 361.35pt x 216.81pt>
 File: figs/suppfpsn.pdf Graphic file (type pdf)
-
-<use figs/suppfpsn.pdf>
-Package pdftex.def Info: figs/suppfpsn.pdf used on input line 1019.
+ <use figs/suppfpsn.pdf>
+Package pdftex.def Info: figs/suppfpsn.pdf used on input line 1021.
 (pdftex.def)             Requested size: 240.0pt x 144.0015pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1021--1021
-[]\T1/ntxtlf/b/n/9 Figure  A.2. \T1/ntxtlf/m/n/9 2003 dry sea-son di-ur-nal mea
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1023
+[]\T1/ntxtlf/b/n/9 Figure  A.3. \T1/ntxtlf/m/n/9 2003 dry sea-son di-ur-nal mea
 n pho-to-syn-the-sis un-der am-bi-ent and TFE con-di-tions for the two
  []
 
 <figs/qwet.pdf, id=2205, 505.89pt x 361.35pt>
 File: figs/qwet.pdf Graphic file (type pdf)
  <use figs/qwet.pdf>
-Package pdftex.def Info: figs/qwet.pdf used on input line 1028.
+Package pdftex.def Info: figs/qwet.pdf used on input line 1030.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1033
-[]\T1/ntxtlf/b/n/9 Figure  A.3. \T1/ntxtlf/m/n/9 2003 wet sea-son (FMA) cu-mu-l
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1035
+[]\T1/ntxtlf/b/n/9 Figure  A.4. \T1/ntxtlf/m/n/9 2003 wet sea-son (FMA) cu-mu-l
 a-tive root wa-ter up-take and pre-cip-i-ta-tion. (a) Cu-mu-la-tive pre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1033
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1035
 \T1/ntxtlf/m/n/9 cip-i-ta-tion over time un-der am-bi-ent con-di-tions (b,c) Cu
 -mu-la-tive wa-ter up-take over time from above and be-low
  []
@@ -1099,34 +1099,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figs/suppstress.pdf, id=2206, 505.89pt x 361.35pt>
 File: figs/suppstress.pdf Graphic file (type pdf)
  <use figs/suppstress.pdf>
-Package pdftex.def Info: figs/suppstress.pdf used on input line 1040.
+Package pdftex.def Info: figs/suppstress.pdf used on input line 1042.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
-[]\T1/ntxtlf/b/n/9 Figure  A.4. \T1/ntxtlf/m/n/9 Wa-ter stress fac-tor ver-sus 
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1048
+[]\T1/ntxtlf/b/n/9 Figure  A.5. \T1/ntxtlf/m/n/9 Wa-ter stress fac-tor ver-sus 
 down-welling short-wave ra-di-a-tion (2002-2003), for timesteps with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1048
 \T1/ntxtlf/m/n/9 VPD be-tween 1 and 1.0559 kPa (n=470). VPD is con-trolled to h
 igh-light the re-la-tion-ship with down-welling
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1048
 \T1/ntxtlf/m/n/9 ra-di-a-tion, the re-verse (con-trol-ling for ra-di-a-tion) is
  shown in Fig-ure 8[]. For SMS (a,b), data are sub-di-vided
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1048
 \T1/ntxtlf/m/n/9 based on av-er-age soil ma-tric po-ten-tial, weighted by root 
 frac-tion. For PHS (c,d), data are sub-di-vided based on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1048
 \T1/ntxtlf/m/n/9 predawn (5h) root wa-ter po-ten-tial. Blue dots rep-re-sent th
 e wettest ter-cile, yel-low dots rep-re-sent the in-ter-me-di-
  []
@@ -1141,43 +1141,43 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figs/suppcond.pdf, id=2239, 505.89pt x 361.35pt>
 File: figs/suppcond.pdf Graphic file (type pdf)
  <use figs/suppcond.pdf>
-Package pdftex.def Info: figs/suppcond.pdf used on input line 1054.
+Package pdftex.def Info: figs/suppcond.pdf used on input line 1056.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
-[]\T1/ntxtlf/b/n/9 Figure  A.5. \T1/ntxtlf/m/n/9 (a,b) Log of con-duc-tance ($\
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1071
+[]\T1/ntxtlf/b/n/9 Figure  A.6. \T1/ntxtlf/m/n/9 (a,b) Log of con-duc-tance ($\
 OML/ntxmi/m/it/9 k[]$\T1/ntxtlf/m/n/9 ) ver-sus soil po-ten-tial for Soil Layer
  5. (c,d) Log of hy-draulic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1071
 []\T1/ntxtlf/m/n/9 Multiplied to-gether $\OML/ntxmi/m/it/9 k[]$ \T1/ntxtlf/m/n/
 9 and $\U/ntxmia/m/it/9 ^^A\OML/ntxmi/m/it/9  $ \T1/ntxtlf/m/n/9 yield the Laye
 r-5 root wa-ter up-take. PHS con-duc-tance de-creases by al-most 3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1071
 \T1/ntxtlf/m/n/9 or-ders of mag-ni-tude be-tween 0 and -1MPa, which leads to re
 -duced RWU, though this is off-set (by about half)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1071
 []\T1/ntxtlf/m/n/9 while SMS $\U/ntxmia/m/it/9 ^^A\OML/ntxmi/m/it/9  $ \T1/ntxt
 lf/m/n/9 de-creases by less than 1 or-der of mag-ni-tude be-tween 0 and -2MPa, 
 lead-ing to higher sen-si-tiv-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1071
 []\T1/ntxtlf/m/n/9 Only mid-day (12h-14h, 2002-2003) timesteps are shown to em-
 pha-size the re-la-tion-ship with soil po-ten-tial.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1071
 \T1/ntxtlf/m/n/9 With SMS, con-duc-tance is not mod-eled ex-plic-itly, but rath
 er cal-cu-lated as $\OML/ntxmi/m/it/9 k$\T1/ntxtlf/m/n/9 =$\OML/ntxmi/m/it/9 q=
 \U/ntxmia/m/it/9 ^^A\OML/ntxmi/m/it/9  $ \T1/ntxtlf/m/n/9 (see Sec-tion 2.4.2[]
@@ -1185,14 +1185,14 @@ er cal-cu-lated as $\OML/ntxmi/m/it/9 k$\T1/ntxtlf/m/n/9 =$\OML/ntxmi/m/it/9 q=
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1071
 \T1/ntxtlf/m/n/9 soil po-ten-tials greater than or equal to 2.5MPa, $\U/ntxmia/
 m/it/9 ^^A\OML/ntxmi/m/it/9  $\T1/ntxtlf/m/n/9 =0, and SMS im-plied con-duc-tan
 ce is un-de-fined, but could
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1071
 \T1/ntxtlf/m/n/9 prob-a-bly be con-sid-ered to equal 0. PHS con-duc-tance cap-t
 ures both root tis-sue and soil ma-trix re-sis-tances
  []
@@ -1203,7 +1203,7 @@ ures both root tis-sue and soil ma-trix re-sis-tances
 File: figs/hr2.pdf Graphic file (type pdf)
 
 <use figs/hr2.pdf>
-Package pdftex.def Info: figs/hr2.pdf used on input line 1076.
+Package pdftex.def Info: figs/hr2.pdf used on input line 1078.
 (pdftex.def)             Requested size: 360.0pt x 257.14474pt.
  [38
 
@@ -1211,18 +1211,18 @@ Package pdftex.def Info: figs/hr2.pdf used on input line 1076.
 <figs/suppsmp.jpg, id=2323, 2810.5pt x 2007.5pt>
 File: figs/suppsmp.jpg Graphic file (type jpg)
  <use figs/suppsmp.jpg>
-Package pdftex.def Info: figs/suppsmp.jpg used on input line 1086.
+Package pdftex.def Info: figs/suppsmp.jpg used on input line 1088.
 (pdftex.def)             Requested size: 360.0pt x 257.12454pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1089--1089
-[]\T1/ntxtlf/b/n/9 Figure  A.7. \T1/ntxtlf/m/n/9 Ver-ti-cal pro-file of soil wa
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1091
+[]\T1/ntxtlf/b/n/9 Figure  A.8. \T1/ntxtlf/m/n/9 Ver-ti-cal pro-file of soil wa
 -ter con-tent (by vol-ume) through time un-der am-bi-ent through-fall
  []
 
 <figs/suppsm2.pdf, id=2324, 505.89pt x 650.43pt>
 File: figs/suppsm2.pdf Graphic file (type pdf)
  <use figs/suppsm2.pdf>
-Package pdftex.def Info: figs/suppsm2.pdf used on input line 1096.
+Package pdftex.def Info: figs/suppsm2.pdf used on input line 1098.
 (pdftex.def)             Requested size: 360.0pt x 462.86055pt.
 
 
@@ -1235,12 +1235,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figs/suppcool.pdf, id=2334, 505.89pt x 650.43pt>
 File: figs/suppcool.pdf Graphic file (type pdf)
  <use figs/suppcool.pdf>
-Package pdftex.def Info: figs/suppcool.pdf used on input line 1105.
+Package pdftex.def Info: figs/suppcool.pdf used on input line 1107.
 (pdftex.def)             Requested size: 360.0pt x 462.86055pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1107--1107
-[]\T1/ntxtlf/b/n/9 Figure  A.9. \T1/ntxtlf/m/n/9 Mod-eled (left col-umn) and ob
--served (right col-umn) tran-spi-ra-tion vs. model soil po-ten-tial.
+Underfull \hbox (badness 10000) in paragraph at lines 1109--1109
+[]\T1/ntxtlf/b/n/9 Figure  A.10. \T1/ntxtlf/m/n/9 Mod-eled (left col-umn) and o
+b-served (right col-umn) tran-spi-ra-tion vs. model soil po-ten-tial.
  []
 
 [41
@@ -1251,7 +1251,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1107--1107
 <figs/schem3.pdf, id=2344, 471.7625pt x 597.23125pt>
 File: figs/schem3.pdf Graphic file (type pdf)
  <use figs/schem3.pdf>
-Package pdftex.def Info: figs/schem3.pdf used on input line 1252.
+Package pdftex.def Info: figs/schem3.pdf used on input line 1254.
 (pdftex.def)             Requested size: 360.0pt x 455.7504pt.
 
 
@@ -1282,9 +1282,6 @@ Me-te-o-rol-ogy\T1/ntxtlf/m/n/10 , \T1/ntxtlf/m/it/10 151\T1/ntxtlf/m/n/10 (10)
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49]
 Underfull \hbox (badness 1708) in paragraph at lines 271--278
 \T1/ntxtlf/m/n/10 and C. R. War-ren (2012), Mes-o-phyll dif-fu-sion con-duc-tan
 ce to CO2: An un-ap- 
@@ -1300,7 +1297,7 @@ Underfull \hbox (badness 1097) in paragraph at lines 271--278
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
+ [49]
 Underfull \hbox (badness 1478) in paragraph at lines 387--390
 \T1/ntxtlf/m/n/10 of plant traits, \T1/ntxtlf/m/it/10 Global Change Bi-ol-ogy\T
 1/ntxtlf/m/n/10 , \T1/ntxtlf/m/it/10 17\T1/ntxtlf/m/n/10 (9), 2905--2935, doi:1
@@ -1308,6 +1305,9 @@ Underfull \hbox (badness 1478) in paragraph at lines 387--390
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
 Underfull \hbox (badness 1496) in paragraph at lines 451--456
 \T1/ntxtlf/m/n/10 tem con-duc-tance re-sponse to va-por pres-sure deficit is su
 b-op-ti-mal and in-de-pen- 
@@ -1335,7 +1335,7 @@ Here is how much of TeX's memory you used:
  9955 multiletter control sequences out of 15000+600000
  89923 words of font info for 136 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 41i,16n,37p,837b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,16n,37p,837b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive
 /2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2016
@@ -1357,7 +1357,7 @@ ts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/txfonts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on phs.pdf (54 pages, 3006575 bytes).
+Output written on phs.pdf (54 pages, 3006301 bytes).
 PDF statistics:
  2473 PDF objects out of 2487 (max. 8388607)
  2333 compressed objects within 24 object streams

@@ -484,14 +484,6 @@ All other parameters use the default values associated with the r270 version of 
 Informed by parameter values reported in \cite{fisher2008}, we tuned soil hydraulic parameters and the throughfall exclusion rate, to improve simulated soil moisture relative to observations (Supp Fig \ref{supp:sm}).
 An ensemble of simulations was used to tune the parameters for the PHS configuration to reasonably reflect sap flux observations (see Appendix \ref{ens}).
 
-
-  \begin{figure}[h]
-     \centering
-     \includegraphics[width=20pc]{figs/roots.pdf}
-     \caption{Cumulative rooting distribution. Likely moving to supplementary or cutting.}
-     \label{roots}
-  \end{figure}
-
 %====================
 %  RESULTS
 %====================
@@ -839,6 +831,9 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
     In lieu of this type of assessment, we propose that the new PHS model structure 1) is more closely aligned with known plant hydraulics theory, 2) provides significantly improved connections to real-world observational data streams (of leaf and stem water status, sap flow, percent loss conductance) and 3) represents known features of ecohydrological function that the default model cannot capture, including hydraulic redistribution, changes in the depth of water uptake with drought stress, plant embolism impacts on gas exchange, and responses of water uptake to changes in root abundance. 
       
 \section{Acknowledgments}
+Observational data collection is a product of CNPQ grant 457914/2013-0/MCTI/CNPq/ FNDCT/LBA/ESECAFLOR and UK NERC grant NE/J011002 to ACLdC. We thank all those involved with data collection and the Museu Paraense Emilio Goeldi in Belem PA, Brazil, for hosting the drought experiment at Caxiuan\~a National Forest, and LBA for underpinning support in Brazil. The experiment was founded, and is led, by P. Meir (University of Edinburgh UK and Australian National University, Australia), with RF also contributing substantial data collection and empirical analysis used in this publication. Observational data and model output are available online at github.com/djk2120/phs.
+
+The National Center for Atmospheric Research is sponsored by the National Science Foundation. Computing resources (doi:10.5065/D6RX99HX) were provided by the Climate Simulation Laboratory at NCAR's Computational and Information Systems Laboratory, sponsored by the National Science Foundation and other agencies. DML was supported in part by the RUBISCO Scientific Focus Area (SFA), which is sponsored by the Regional and Global Climate Modeling (RGCM) Program in the Climate and Environmental Sciences Division (CESD) of the Office of Biological and Environmental Research in the U.S. Department of Energy Office of Science.
 
 \clearpage    
 
@@ -1001,6 +996,13 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
 %====================
 
 \section{Supplementary Figures}
+
+  \begin{figure}[h]
+     \centering
+     \includegraphics[width=20pc]{figs/roots.pdf}
+     \caption{Cumulative rooting distribution. Likely moving to supplementary or cutting.}
+     \label{roots}
+  \end{figure}
 
 
       \begin{figure}[h]
@@ -1429,10 +1431,6 @@ Medlyn slope, $g_1$: 6, 7 kPa$^{0.5}$ \\
 Rooting depth parameter, $\beta$: 0.95, 0.98, 0.993 (unitless) 
 
 
-\acknowledgments
-Observational data collection is a product of CNPQ grant 457914/2013-0/MCTI/CNPq/ FNDCT/LBA/ESECAFLOR and UK NERC grant NE/J011002 to ACLdC. We thank all those involved with data collection and the Museu Paraense Emilio Goeldi in Belem PA, Brazil, for hosting the drought experiment at Caxiuan\~a National Forest, and LBA for underpinning support in Brazil. The experiment was founded, and is led, by P. Meir (University of Edinburgh UK and Australian National University, Australia), with RF also contributing substantial data collection and empirical analysis used in this publication. Observational data and model output are available online at github.com/djk2120/phs.
-
-The National Center for Atmospheric Research is sponsored by the National Science Foundation. Computing resources (doi:10.5065/D6RX99HX) were provided by the Climate Simulation Laboratory at NCAR's Computational and Information Systems Laboratory, sponsored by the National Science Foundation and other agencies. DML was supported in part by the RUBISCO Scientific Focus Area (SFA), which is sponsored by the Regional and Global Climate Modeling (RGCM) Program in the Climate and Environmental Sciences Division (CESD) of the Office of Biological and Environmental Research in the U.S. Department of Energy Office of Science.
 
 %====================
 %   REFERENCES
