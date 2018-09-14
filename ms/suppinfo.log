@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 SEP 2018 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 SEP 2018 17:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -822,7 +822,7 @@ l/texlive/2016/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on suppinfo.pdf (10 pages, 1372483 bytes).
+Output written on suppinfo.pdf (10 pages, 1372482 bytes).
 PDF statistics:
  212 PDF objects out of 1000 (max. 8388607)
  179 compressed objects within 2 object streams
