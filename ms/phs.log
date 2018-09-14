@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 SEP 2018 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 SEP 2018 11:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -667,14 +667,10 @@ tem-to-leaf, and leaves-to-transpiration).
  []
 
 [9]
-Overfull \hbox (229.645pt too wide) in paragraph at lines 450--454
-[]\T1/ntxtlf/m/n/10 All four sim-u-la-tions use the same ver-sion of CLM5 (de-v
-el-op-ment ver-sion r270, www.github.com/ESCOMP/ctsm/releases/tag/clm4_5_18_r27
-0), 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[10]
-Underfull \vbox (badness 2680) has occurred while \output is active []
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
 Overfull \hbox (5.51501pt too wide) in paragraph at lines 527--534
@@ -700,17 +696,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 582--582
 ighted soil po-ten-tial.
  []
 
-[13]
-Overfull \hbox (1.17496pt too wide) in paragraph at lines 607--611
-\T1/ntxtlf/m/n/10 fects the ver-ti-cal dis-tri-bu-tion of soil wa-ter (Fig-ure 
-10[], Supp Fig A.7[]), as SMS tends to achieve 
- []
 
+Underfull \vbox (badness 7116) has occurred while \output is active []
 
+ [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1552) has occurred while \output is active []
 
  [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -785,7 +778,7 @@ nt (-) over time un-der am-bi-ent and TFE con-di-tions at a depth of
 
 Underfull \hbox (badness 10000) in paragraph at lines 872--872
 \T1/ntxtlf/m/n/9 50cm. (a/b) SMS (c/d) PHS. Ar-rows in-di-cate start of TFE. Su
-p-ple-men-tary Fig-ure A.8[] plots 7 other soil
+p-ple-men-tary Fig-ure A.9[] plots 7 other soil
  []
 
 
@@ -863,7 +856,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 912--912
 
 Underfull \hbox (badness 10000) in paragraph at lines 912--912
 \T1/ntxtlf/m/n/9 the re-la-tion-ship with VPD, the re-verse (con-trol-ling for 
-VPD) is shown in Sup-ple-men-tary Fig-ure A.4[]. For SMS
+VPD) is shown in Sup-ple-men-tary Fig-ure A.5[]. For SMS
  []
 
 
@@ -1116,7 +1109,7 @@ igh-light the re-la-tion-ship with down-welling
 
 Underfull \hbox (badness 10000) in paragraph at lines 1048--1048
 \T1/ntxtlf/m/n/9 ra-di-a-tion, the re-verse (con-trol-ling for ra-di-a-tion) is
- shown in Fig-ure 8[]. For SMS (a,b), data are sub-di-vided
+ shown in Fig-ure 7[]. For SMS (a,b), data are sub-di-vided
  []
 
 
@@ -1331,7 +1324,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  6632 strings out of 493014
  89576 string characters out of 6133351
- 157438 words of memory out of 5000000
+ 157440 words of memory out of 5000000
  9955 multiletter control sequences out of 15000+600000
  89923 words of font info for 136 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
@@ -1357,7 +1350,7 @@ ts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/txfonts/txsy.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on phs.pdf (54 pages, 3006301 bytes).
+Output written on phs.pdf (54 pages, 3006369 bytes).
 PDF statistics:
  2473 PDF objects out of 2487 (max. 8388607)
  2333 compressed objects within 24 object streams
