@@ -5,6 +5,7 @@
 \draftfalse
 \journalname{Journal of Advances in Modeling Earth Systems (JAMES)}
 \usepackage{xr}
+\usepackage[inline]{trackchanges}
 \externaldocument{suppinfo}
 \begin{document}
 
@@ -496,14 +497,14 @@ An ensemble of simulations was used to tune the parameters for the PHS configura
 \subsection{Comparison with observations}
 \label{sect:obs}
 
-We tested two configurations of CLM5 (PHS, SMS) with simulations of the Caxiuan\~a throughfall exclusion experiment over 2001-2003. We compare modeled transpiration with observations derived from sap flux velocity and modeled soil moisture with observations using TDR sensors (see above for experiment and observation details).
+We tested two configurations of CLM5 (PHS, SMS) with simulations of the Caxiuan\~a throughfall exclusion experiment over 2001-2003. We compare\add{d} modeled transpiration with observations derived from sap flux velocity and modeled soil moisture with observations using TDR sensors (see above for experiment and observation details).
 
 \subsubsection{Transpiration, Ambient Conditions}
 Under ambient conditions, PHS reduces error and improves correlation between modeled and observed transpiration (compared to SMS, Figure \ref{fig:t}a,c).
 While the two models make a similar number of small errors, SMS commits more errors exceeding 1 mm/day.
 The absolute value of SMS-OBS transpiration (Figure \ref{fig:t2}g) exceeds 1 mm/d in 67 of 414 days with available observations, as compared to just 23 with PHS.
-And while PHS error is limited to a maximum of 1.6 mm/d, SMS error exceeds 2 mm/d twelve times (all of which underestimate transpiration relative to observations).
-The largest SMS errors coincide with dry soils, which is discussed further in Section \ref{sect:smt}. 
+And while PHS error is limited to a maximum of 1.6 mm/d, SMS error exceeds 2 mm/d twelve times\change{(all of which underestimate transpiration relative to observations).}{. These twelve SMS errors all result from underestimating transpiration relative to observations,}
+\remove{The largest SMS errors} coincid\change{e}{ing} with dry soils, which is discussed further in Section \ref{sect:smt}. 
 
 While PHS offers improvements modeling transpiration as measured by RMSE and correlation, the ambient simulation seems to underestimate transpiration variability, with a standard deviation of daily transpiration of 0.61 mm/d compared to 0.87 mm/d in the observations (with SMS, the standard deviation is 0.97 mm/d).
 As such, PHS features a low bias for high transpiration values and a high bias for low transpiration values (Figure \ref{fig:t}c).
@@ -511,9 +512,10 @@ The difference in modeled transpiration between PHS and SMS derives from diverge
 
 \subsubsection{Transpiration, TFE}
 \label{sect:ttfe}
-Both models demonstrate lower correlation and increased error relative to transpiration observations under TFE (Figure \ref{fig:t}b,d).
-PHS performs better than SMS, but yields a more pronounced high bias (Figure \ref{fig:t}b,d).
-The wet season (February-March-April), especially, is prone to high transpiration biases in both models, where, in the observations, transpiration is reduced 32\% by TFE, as compared to modeled reductions of only 1.6 and 4\% for PHS and SMS, respectively.
+\remove{Both models demonstrate lower correlation and increased error relative to transpiration observations under TFE. PHS performs better than SMS, but yields a more pronounced high bias.}
+\add{PHS performs better than SMS at reproducing transpiration observations under TFE} (Figure \ref{fig:t}b,d) 
+\add{, though R$^2$ and RMSE under TFE were degraded relative to the ambient simulations in both the SMS and PHS configurations.}
+The wet season (February-March-April)\remove{, especially,} is prone to high transpiration biases in both models, where, in the observations, transpiration is reduced 32\% by TFE, as compared to modeled reductions of only 1.6 and 4\% for PHS and SMS, respectively.
 This may indicate that the models' sensitivity to soil potential declines are underestimated, or that water drains from the root zone more quickly after precipitation events than we represent with the soil hydraulic parameters (Figure \ref{fig:sm2}b,d).
 Difficulty reproducing the effect of TFE (and the influence of soil moisture on leaf gas exchange) at Caxiuan\~a has precedent in the literature \citep{restrepo2017,powell2013}.
 
@@ -964,7 +966,7 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
     \begin{figure}[h]
      \centering
      \includegraphics[width=30pc]{figs/hr.pdf}
-     \caption{Total hydraulic redistribution (cm) by month across 2003. For (a) ambient through-fall conditions, and (b) 60\% throughfall exclusion. 
+     \caption{Total hydraulic redistribution (cm) by month across 2003. For (a) ambient \change{through-fall}{throughfall} conditions, and (b) 60\% throughfall exclusion. 
      Darker shading shows portion of HR at night [6pm,6am), lighter shading shows portion of HR during the day [6am,6pm).
      Total HR refers to the sum of all negative root water uptake flows, whenever water is deposited by roots into a given soil layer (instead of being extracted).}
      \label{fig:hr}
@@ -1326,7 +1328,7 @@ Rooting depth parameter, $\beta$: 0.95, 0.98, 0.993 (unitless)
 \bibliography{all}
 
 
-\listofchanges
+
 
 
 \end{document}
