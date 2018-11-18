@@ -273,7 +273,7 @@ This study develops a new parameterization of water stress (Sections \ref{sect:f
         \label{sect:phsrwu}
     
     PHS implements an alternative to the SMS heuristic approach for root water uptake, using a mechanistic representation following Darcy's Law.
-    Instead of a constant parameter ($\psi_c$) defining $\Delta\psi$, PHS implements a physical model of vegetation water potential (described in Section \ref{sect:vwp}).
+    Instead of a constant parameter ($\psi_c$) defining \change{$\Delta\psi$}{the gradient in water potential within the SMS hydraulic analogy} (Equation \ref{kb}), PHS implements a physical model of vegetation water potential (details in Section \ref{sect:vwp}).
     The water flux from a given soil layer is driven by the gradient between soil potential ($\psi_{\text{soil},i}$) and the water potential in the root collar ($\psi_{\text{root}}$), 
     after accounting for the effects of gravity ($\rho g z_i$, where $z_i$ is the soil layer depth).
     Hydraulic conductance across the soil and roots ($k_{sr}$) is modeled based on soil hydraulic properties and xylem vulnerability, 
@@ -359,18 +359,20 @@ This study develops a new parameterization of water stress (Sections \ref{sect:f
     
     Water demand is calculated using the Medlyn stomatal conductance model (see Section \ref{sect:gs}) modulated by the CLM water stress factor.
     As discussed earlier $f_w$ is based on leaf water potential in PHS, where stress increases as leaf water potential becomes more negative \citep{klein2014}.
-    Because leaf water potential is modeled separately for sunlit and shaded leaves, $f_w$ takes on distinct sunlit and shaded values.
+    \add{Emerging from this new stress formulation is a connection between drought stress and hydraulic safety margin (HSM), which measures the difference between the minimum leaf water experienced by vegetation and the water potential at a given percent loss of conductivity (e.g. $HSM=p_{50}-\psi_{\text{leaf,min}}$). Variations in HSM have been shown to explain a significant portion of the variance in ecosystem drought sensitivity} \citep{anderegg2018}.
+
     
      \begin{linenomath*}
      \begin{equation}
      \begin{aligned}
      \label{eq:d1}
-     f_{w,sun} &= 2^{-\left(\dfrac{\psi_{\text{sun-leaf}}}{\psi_{50}}\right)^{c_k}} \\
-     f_{w,shade} &= 2^{-\left(\dfrac{\psi_{\text{shade-leaf}}}{\psi_{50}}\right)^{c_k}}
+     f_{w,sun} &= 2^{-\left(\dfrac{\psi_{\text{sun-leaf}}}{p_{50}}\right)^{c_k}} \\
+     f_{w,shade} &= 2^{-\left(\dfrac{\psi_{\text{shade-leaf}}}{p_{50}}\right)^{c_k}}
      \end{aligned}     
      \end{equation}
      \end{linenomath*}
      
+     Because leaf water potential is modeled separately for sunlit and shaded leaves, $f_w$ takes on distinct sunlit and shaded values.
      Shaded and sunlit leaf transpiration ($E_{\text{sun}}$, $E_{\text{shade}}$) are calculated by attenuating maximal transpiration ($E_{\text{sun,max}}$,$E_{\text{shade,max}}$) according to $f_w$. 
      $E_{\text{sun,max}}$ and $E_{\text{shade,max}}$ are calculated at the beginning of each timestep by running the stomatal conductance model with $f_w=1$.
      Equations (\ref{eq:d1}) and (\ref{eq:d2}) reflect a simplification used within iterations of the PHS module, 
@@ -455,7 +457,7 @@ This site is located in Eastern Amazonia (Caxiuan\~a, Brazil) and part of the La
 All four simulations use the same version of CLM5
 (development version r270, www. github.com/ESCOMP/ctsm/releases/tag/clm4\textunderscore 5\textunderscore 18\textunderscore r270),
 which features a switch that can toggle between SMS and PHS configurations.
-Simulations are run offline (uncoupled from an active atmospheric model), spanning from 2001 through 2003, utilizing the satellite phenology (SP) mode of CLM5 in which vegetation state (LAI, canopy height) is prescribed and biogeochemistry is inactive. Six-year spin-up simulations (one each for SMS and PHS) are used to create initial conditions, repeating the Ambient simulation twice. Descriptions of site characteristics, forcing data, and observational sap flux and soil moisture, can be found in \cite{fisher2007} and \cite{fisher2008}.
+Simulations are run offline (uncoupled from an active atmospheric model), spanning from 2001 through 2003, utilizing the satellite phenology (SP) mode of CLM5 in which vegetation state (LAI, canopy height) is prescribed and biogeochemistry is inactive. Six-year spin-up simulations (one each for SMS and PHS) are used to create initial conditions, repeating the ambient simulation twice. \add{This satisfied steady state soil conditions, with soil matric potential changing by less than 0.2\% between the two loops}. Descriptions of site characteristics, forcing data, and observational sap flux and soil moisture, can be found in \cite{fisher2007} and \cite{fisher2008}.
 
 \subsection{Parameter Values and Throughfall Exclusion}
 \label{sect:param}
@@ -725,9 +727,9 @@ In an SMS-style paradigm, this process is not fully represented.
 With identical rooting profiles, PHS extracts 29\% of transpiration from beyond 2 meters depth under TFE (during the 2003 dry season) as compared to 13\% with SMS.
 In PHS, as the surface soil layers dry out, conductance decreases rapidly, leading to reduced near-surface RWU.
 In response, the vegetation `pulls' harder, as $\psi_{\text{root}}$ becomes more negative, creating a larger gradient to the deeper soil layers, yielding increased RWU in those still-moist layers.
-Due to constant vegetation potential ($\psi_c$) and no drying response to conductance, SMS lacks the flexibility to achieve this type of compensatory RWU.
+\change{Due to constant vegetation potential ($\psi_c$) and no drying response to conductance, SMS lacks the flexibility to achieve this type of compensatory RWU}{SMS lacks the flexibility to achieve this type of compensatory RWU, because it models RWU fluxes based on a constant soil wilting potential ($\psi_c$) and does not explicitly impose a loss of hydraulic conductance as soils dry}.
 As a result, PHS maintains higher levels of transpiration and photosynthesis than SMS during the dry season under both ambient and TFE conditions (Figures \ref{fig:t2},\ref{fig:gpp}).
-This process may be especially important for modeling evapotranspiration in semi-arid ecosystems \citep{jarvis2011} and in Amazonia, where water contributions of deep roots are often important \citep{nepstad1994}
+This process may be especially important for modeling evapotranspiration in semi-arid ecosystems \citep{jarvis2011} and in Amazonia, where water contributions of deep roots are often important \citep{nepstad1994}.
 
 \subsubsection{Hydraulic redistribution}
 \label{sect:hr}
@@ -869,7 +871,7 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
      \caption{Volumetric soil water content (-) over time under ambient and TFE conditions at a depth of 50cm.
      (a/b) SMS
      (c/d) PHS.
-     Arrows indicate start of TFE. Supplementary Figure \ref{supp:sm2} plots 7 other soil depths. Note that SMS can tend to `stick' at water content of 0.1 during the dry season, which corresponds to $\psi_{\text{soil}}$=-2.5MPa and is the value of SMS parameter $\psi_c$. }
+     Arrows indicate start of TFE. Supplementary Figure \ref{supp:sm2} plots 7 other soil depths. \change{Note that SMS}{In the SMS configuration, soil moisture} can tend to `stick' at water content of 0.1 during the dry season, which corresponds to $\psi_{\text{soil}}$=-2.5MPa and is the value of the SMS soil wilting parameter, $\psi_c$. }
      \label{fig:sm2}
   \end{figure}
   
