@@ -598,7 +598,7 @@ The two stress parameterizations feature differing seasonal cycles of GPP, with 
 Under ambient conditions, SMS predicts little to no stress ($f_w$=1) during the wetter months (January through July).
 Meanwhile PHS models significant stress, with highly variable $f_w$, ranging as low as 0.5.
 Despite abundant soil water, PHS still imposes stress, due to high transpiration demand when VPD and downwelling solar radiation are high.
-This results in lower wet season GPP than with SMS (Figure \ref{fig:gpp}e,g).
+This results in lower wet season GPP \add{and lower GPP variability} than with SMS (Figure \ref{fig:gpp}e,g).
 Contrastingly, SMS imposes more stress than PHS during the dry season (Figure \ref{fig:gpp}b,d), 
 resulting in lower dry season GPP.
 Observations show that GPP increases at Caxiuan\~a during the dry season \citep{restrepo2017}, suggesting that both model configurations, 
@@ -682,10 +682,12 @@ Likewise, the constraint at $\psi_c$ precludes the representation of hydraulic r
         
     Leaf water potential is (in simplified terms) the sum of soil water potential and the gradient of water potential from soil-to-leaf ($\psi_l=\psi_s+\Delta\psi$).
     Therefore using $\psi_l$ as the driver of water stress preserves a relationship between stress and soil potential, but now also represents the effect of increasing demand for transpiration (reflected by increases in $\Delta\psi$).
-    As such, PHS offers a mechanistic approach to water stress, utilizing a physical justification that interprets water stress as the result of increasing xylem tension, which has previously been used as a primary \citep{sperry2017} or contributing \citep{novick2016a} factor to stomatal regulation.
+    \remove{As such, }PHS offers a mechanistic approach to water stress, utilizing a physical justification that interprets water stress as the result of increasing xylem tension, which has previously been used as a primary \citep{sperry2017} or contributing \citep{novick2016a} factor to stomatal regulation.
     In the model, vegetation will (according to the specific hydraulic parameter values) limit transpiration in order to avoid overly negative leaf water potential values, which are associated with cavitation and embolism \citep{tyree1989}.
     As a result, PHS stress responds to changing soil moisture, but unlike SMS, also responds to VPD and downwelling solar radiation (Figure \ref{fig:stress2}), which modulate transpiration demand.
-    This imparts a diurnal pattern to PHS stress, with higher stress around midday, whereas with SMS, stress is relatively constant throughout the day (Figure \ref{fig:stress1}).
+        This imparts a diurnal pattern to PHS stress, with higher stress around midday, whereas with SMS, stress is relatively constant throughout the day (Figure \ref{fig:stress1}).
+    \add{The PHS stress formulation will impart an increased sensitivity of GPP to rising VPD under climate change, which could lead to a diminished terrestrial carbon sink relative to SMS projections.}
+
    
     Soil water potential approaches (as in SMS) lack a straightforward physical basis, but rather empirically relate stomatal conductance and/or photosynthetic parameters with soil potential (or soil moisture).
     However, in the case of SMS, the empirical relationship is very difficult to constrain, due to scarce observations of the stress driver, root-fraction-weighted soil potential.
@@ -693,12 +695,13 @@ Likewise, the constraint at $\psi_c$ precludes the representation of hydraulic r
     Leaf water potential, on the other hand, is more easily measured in situ \citep{boyer1967} and has been shown to correlate with remote sensing products \citep{momen2017}, offering better observational constraints for PHS.
     Likewise, incorporating plant hydraulics may allow for improved model representation of tree mortality \citep{mcdowell2018}.
 
+\remove{
     Another key difference is that PHS stress imparts a negative feedback on GPP and transpiration.
     Conditions favoring increased GPP (e.g. more light) also increase transpiration demand, leading to more xylem tension and stress, which opposes increases in GPP.
-    In the PHS simulations, this suppresses variability in GPP relative to SMS, and leads to underestimating the range of transpiration compared to sap flux observations (Figure \ref{fig:t}).
-    Terrestrial biosphere models have previously had difficulty reproducing variability observed in GPP \citep{keenan2012}, and evaluating the change in variability introduced by PHS will be an important follow-up to this study.
+    In the PHS simulations, this suppresses variability in GPP relative to SMS, and leads to underestimating the range of transpiration compared to sap flux observations.
+    Terrestrial biosphere models have previously had difficulty reproducing variability observed in GPP, and evaluating the change in variability introduced by PHS will be an important follow-up to this study.
     With PHS, the relative contributions (to water stress) of changes in transpiration demand versus changes in soil potential (and likewise the strength of the negative feedback described above) can be varied by adjusting the hydraulic parameters. 
-    This establishes a flexible representation of vegetation water use dynamics that can be used to test hypotheses about drought resilience, water use strategies, and the relative impacts of soil moisture and VPD on stress.
+    This establishes a flexible representation of vegetation water use dynamics that can be used to test hypotheses about drought resilience, water use strategies, and the relative impacts of soil moisture and VPD on stress.}
     
 \subsection{Structural improvements in modeling root water uptake}
 
@@ -851,17 +854,7 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
      \label{fig:t}
   \end{figure}
   
-    \clearpage   
-      \begin{figure}[h]
-     \centering
-     \includegraphics[width=30pc]{figs/fctr_ts.pdf}
-     \caption{(a-f) Time-series of daily total transpiration (mm/d), from (a,b) observations, (c,d) SMS model configuration, and (e,f) PHS model configuration under ambient and TFE conditions.
-     
-     (g-j) Difference between modeled and observed transpiration (mm/d), for (g,h) SMS and (i,j) PHS under ambient and TFE conditions.
-     }
-     \label{fig:t2}
-  \end{figure}
-    
+
 
 
         \clearpage
@@ -938,18 +931,6 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
  }
      \label{fig:sm}
   \end{figure}
-
-  \begin{figure}[h]
-     \centering
-     \includegraphics[width=30pc]{figs/rwu.pdf}
-     \caption{Binned boxplot of root water uptake versus soil potential for Soil Layer 5 (2002-3).
-     Red lines mark the median, with boxes spanning the interquartile range.
-     Bin widths are 0.25 MPa for SMS and 0.1 MPa for PHS.
-     Soil Layer 5 is shown, because it is close enough to the surface (20 to 32 cm) to experience a significant range in soil potential, and it has a large root fraction (14.4\%, only Soil Layer 6 has a larger root fraction).
-     Only midday (12h-14h) timesteps are used to highlight the relationship with soil potential.}
-     \label{fig:rwu}
-  \end{figure}
-  \clearpage
 
         \clearpage
     \begin{figure}[h]
