@@ -30,6 +30,7 @@ Pierre Gentine\affil{1}
 \item An updated soil-plant-atmosphere continuum model based on hydraulic theory is implemented in the Community Land Model (version 5).
 \item Prognostic leaf water potential replaces soil matric potential as the basis for stomatal conductance water stress. 
 \item Prognostic root water potential is used to implement hydraulic root water uptake, replacing a `soil wilting point' approach.
+\item \add{Implications include increased sensitivity to vapor pressure deficit and decreased sensitivity to precipitation shortfalls.}
 \end{keypoints}
 
 
@@ -45,7 +46,7 @@ Point simulations of a tropical forest site (Caxiuan\~a, Brazil) under ambient c
  \change{Incorporating plant hydraulic theory advances the physical basis of the CLM, while creating a platform for testing hypotheses relating to the mechanisms governing vegetation water use dynamics within an Earth System Model.}{Model description and simulation results are contextualized with a list of benefits and limitations of the new model formulation, including hypotheses that were not testable in previous versions of the model.}
  \add{Key results include reductions in transpiration and soil moisture biases relative to a control model under both ambient and exclusion conditions, correcting excessive soil moisture stress in the control model during the dry season.}
  \add{PHS implements hydraulic gradient root water uptake, which allows hydraulic redistribution and compensatory root water uptake and results in PHS utilizing a larger portion of the soil column to buffer shortfalls in precipitation.}
-\add{The new model structure, which bases water stress on leaf water potential, could have significant implications for vegetation-climate feedbacks, through increased sensitivity of photosynthesis to atmospheric vapor pressure deficit.}
+\add{The new model structure, which bases water stress on leaf water potential, could have significant implications for vegetation-climate feedbacks, including increased sensitivity of photosynthesis to atmospheric vapor pressure deficit.}
 \end{abstract}
 
 %====================
@@ -712,10 +713,11 @@ Likewise, the constraint at $\psi_c$ precludes the representation of hydraulic r
 \subsubsection{Dynamic vegetation water potential}
 
 PHS introduces dynamic vegetation water potential (Figure \ref{fig:vwp}), for the first time, into the default configuration of the CLM.
-Seasonally and diurnally dynamic leaf water potential are observed in the field \citep{fisher2006}, adjusting to variations in soil water supply and transpiration demand.
+Seasonally and diurnally dynamic leaf water potentials are observed in the field \citep{fisher2006}, adjusting to variations in soil water supply and transpiration demand.
 Dynamism in the gradient of water potential from soil-to-leaf, according to Darcy's Law, drives RWU.
 This is especially important for partitioning the transpiration sink among soil layers with varying soil potential states \citep{jarvis2011}.
-A mechanistic representation of RWU with dynamic vegetation water potential allows for modeling a range of water use strategies, and/or testing hypotheses regarding such strategies on the ESM scale. This includes the effects of iso/anisohydry, which can be diagnosed from remote sensing observations \citep{konings2017a}, on leaf gas exchange and drought vulnerability.
+A mechanistic representation of RWU with dynamic vegetation water potential allows for modeling a range of water use strategies, and/or testing hypotheses regarding such strategies on the ESM scale. \add{One example is testing the effects of increasing carbon allocation to root biomass, which was not well-represented in previous versions of the CLM, because water availability depended on relative root fraction and would not respond to increase in absolute biomass.}  \change{This includes}{Another example is testing} the effects of iso/anisohydry, which can be diagnosed from remote sensing observations \citep{konings2017a}, on leaf gas exchange and drought vulnerability. \add{The spectrum of isohydric to anisohydric behavior, corresponding to highly regulated versus relatively unregulated leaf water potential, cannot be represented in previous versions of the model that do not model leaf water potential.}
+\add{Likewise, variation in hydraulic safety margin, which have been shown to correlate with drought sensitivity} \citep{anderegg2018}, \add{can now be represented in the model due to prognostic leaf water potential.}
 
 \subsubsection{Mechanistic hydraulic conductance, with response to drying}
 Likewise, PHS implements mechanistic hydraulic conductance through the SPAC, reflecting declines in conductance associated with decreasing water potential in both plant vessels and soil substrate \citep{tyree1989}.
