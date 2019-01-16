@@ -47,6 +47,14 @@ Anderegg, W. R.~L., A.~Wolf, A.~Arango-Velez, B.~Choat, D.~J. Chmura,
   prediction of empirical stomatal models, \textit{PLOS ONE}, \textit{12}(10),
   1--17, \doi{10.1371/journal.pone.0185481}.
 
+\bibitem[{\textit{Anderegg et~al.}(2018)\textit{Anderegg, Konings, Trugman, Yu,
+  Bowling, Gabbitas, Karp, Pacala, Sperry, Sulman, and Zenes}}]{anderegg2018}
+Anderegg, W. R.~L., A.~G. Konings, A.~T. Trugman, K.~Yu, D.~R. Bowling,
+  R.~Gabbitas, D.~S. Karp, S.~Pacala, J.~S. Sperry, B.~N. Sulman, and N.~Zenes
+  (2018), Hydraulic diversity of forests regulates ecosystem resilience during
+  drought, \textit{Nature}, \textit{561}, 538--541,
+  \doi{10.1038/s41586-018-0539-7}.
+
 \bibitem[{\textit{Avissar et~al.}(2002)\textit{Avissar, Silva~Dias, Silva~Dias,
   and Nobre}}]{avissar2002}
 Avissar, R., P.~L. Silva~Dias, M.~A.~F. Silva~Dias, and C.~Nobre (2002), The
@@ -387,16 +395,6 @@ Joetzjer, E., C.~Delire, H.~Douville, P.~Ciais, B.~Decharme, R.~Fisher,
 Kattge, J., S.~D\'iaz, S.~Lavorel, I.~C. Prentice, and et~al. (2011), {TRY} - a
   global database of plant traits, \textit{Global Change Biology},
   \textit{17}(9), 2905--2935, \doi{10.1111/j.1365-2486.2011.02451.x}.
-
-\bibitem[{\textit{Keenan et~al.}(2012)\textit{Keenan, Baker, Barr, Ciais,
-  Davis, Dietze, Dragoni, Gough, Grant, Hollinger, Hufkens, Poulter, McCaughey,
-  Raczka, Ryu, Schaefer, Tian, Verbeeck, Zhao, and Richardson}}]{keenan2012}
-Keenan, T., I.~Baker, A.~Barr, P.~Ciais, K.~Davis, M.~Dietze, D.~Dragoni, C.~M.
-  Gough, R.~Grant, D.~Hollinger, K.~Hufkens, B.~Poulter, H.~McCaughey,
-  B.~Raczka, Y.~Ryu, K.~Schaefer, H.~Tian, H.~Verbeeck, M.~Zhao, and A.~D.
-  Richardson (2012), Terrestrial biosphere model performance for inter-annual
-  variability of land-atmosphere {CO2} exchange, \textit{Global Change
-  Biology}, \textit{18}(6), 1971--1987, \doi{10.1111/j.1365-2486.2012.02678.x}.
 
 \bibitem[{\textit{Klein and Niu}(2014)}]{klein2014}
 Klein, T., and S.~Niu (2014), The variability of stomatal sensitivity to leaf

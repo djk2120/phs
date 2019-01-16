@@ -30,7 +30,6 @@ Pierre Gentine\affil{1}
 \item An updated soil-plant-atmosphere continuum model based on hydraulic theory is implemented in the Community Land Model (version 5).
 \item Prognostic leaf water potential replaces soil matric potential as the basis for stomatal conductance water stress. 
 \item Prognostic root water potential is used to implement hydraulic root water uptake, replacing a `soil wilting point' approach.
-\item \add{Implications include increased sensitivity to vapor pressure deficit and decreased sensitivity to precipitation shortfalls.}
 \end{keypoints}
 
 
@@ -38,13 +37,13 @@ Pierre Gentine\affil{1}
 \begin{abstract}
 Version 5 of the Community Land Model (CLM5) introduces the Plant Hydraulic Stress (PHS) configuration of vegetation water use, which is described and compared with the corresponding parameterization from CLM4.5.
 PHS updates vegetation water stress and root water uptake to better reflect plant hydraulic theory\change{.}{, advancing the physical basis of the model.}
-The new configuration introduce prognostic vegetation water potential to the CLM, modeled at the root, stem, and leaf levels.
-Leaf water potential replaces soil matric potential as the basis for stomatal conductance water stress, and
-root water potential is used to implement hydraulic root water uptake, replacing a transpiration-partitioning heuristic function.
-Point simulations of a tropical forest site (Caxiuan\~a, Brazil) under ambient conditions and partial precipitation throughfall exclusion are carried out to highlight the differences between PHS and the previous implementations of water stress and root water uptake.
+The new configuration introduces prognostic vegetation water potential\remove{ to the CLM}, modeled at the root, stem, and leaf levels.
+Leaf water potential replaces soil \remove{matric} potential as the basis for stomatal conductance water stress, and
+root water potential is used to implement hydraulic root water uptake, replacing a transpiration-partitioning \remove{heuristic} function.
+Point simulations of a tropical forest site (Caxiuan\~a, Brazil) under ambient conditions and partial precipitation \remove{throughfall} exclusion \remove{are carried out to} highlight the differences between PHS and the previous \add{CLM} implementation\remove{s of water stress and root water uptake}.
 
  \change{Incorporating plant hydraulic theory advances the physical basis of the CLM, while creating a platform for testing hypotheses relating to the mechanisms governing vegetation water use dynamics within an Earth System Model.}{Model description and simulation results are contextualized with a list of benefits and limitations of the new model formulation, including hypotheses that were not testable in previous versions of the model.}
- \add{Key results include reductions in transpiration and soil moisture biases relative to a control model under both ambient and exclusion conditions, correcting excessive soil moisture stress in the control model during the dry season.}
+ \add{Key results include reductions in transpiration and soil moisture biases relative to a control model under both ambient and exclusion conditions, correcting excessive dry season soil moisture stress in the control model.}
  \add{PHS implements hydraulic gradient root water uptake, which allows hydraulic redistribution and compensatory root water uptake and results in PHS utilizing a larger portion of the soil column to buffer shortfalls in precipitation.}
 \add{The new model structure, which bases water stress on leaf water potential, could have significant implications for vegetation-climate feedbacks, including increased sensitivity of photosynthesis to atmospheric vapor pressure deficit.}
 \end{abstract}
