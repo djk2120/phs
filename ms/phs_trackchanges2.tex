@@ -74,7 +74,7 @@ More mechanistic representations of stress and vegetation water use dynamics hav
 Explicit modeling of water flow through the vegetation substrate increases model complexity, but is consistent with evidence of dynamic regulation of vegetation water use in response to both soil and atmospheric drying \citep{tardieu1998,sperry1998,sperry2015}.
 Furthermore, because they are based on Darcy's Law, plant hydraulic models have a robust physical basis compared to models that utilize empirical water stress formulations.
 Plant hydraulic models involve new parameters, which may prove challenging to constrain \citep{drake2017}, but plant hydraulic trait data are available \citep{kattge2011,anderegg2015a}, providing constraints on parameter estimation.   
-Such trait data have been shown to improve predictions of species vulnerability to drought \citep{choat2012,mackay2015,powell2018,giardina2018}.
+Such trait data have been shown to improve predictions of species vulnerability to drought \citep{choat2012,mackay2015,powell2018,giardina2018,anderegg2018} \add{[citation added]}.
 Likewise vegetation water status observations are now available from remote sensing platforms, at a scale that is directly comparable to model development \citep{konings2016,grant2016} and therefore can be used to validate model results \citep{momen2017,konings2017b}.
 
 In this study, we develop a new plant water stress parameterization based on hydraulic theory within the recently released Community Land Model, version 5 (CLM5, the land component of the Community Earth System Model, version 2). 
@@ -87,8 +87,8 @@ These changes in the parameterization framework have numerous implications, incl
 
 \begin{enumerate}
 \item Leaf water potential serves as a metric for plant water status instead of soil water or soil matric potential. As such, it reflects vegetation sensitivity to both soil and atmospheric drying, while serving as a diagnostic for excessive xylem tension and cavitation risk. 
-\item Modeling plant hydrodynamics allows representation of hydraulic redistribution \citep{lee2005}, as the flow respects Darcy's law and thus is always directed down gradients of water potentials. 
-\item Root water potential can be used to predict gradient-based root water uptake based on Darcy's law, replacing the previous empirical transpiration partitioning heuristic. This provides the means to vary, for example, the mean depth of extraction with changing soil water conditions.
+\item \change{Modeling}{Using a Darcy's Law approximation to model} plant hydrodynamics allows representation of hydraulic redistribution \citep{lee2005}, as \change{the flow respects Darcy's law and thus is}{water fluxes are} always directed down gradients of water potentials. 
+\item Root water potential can be used to predict gradient-based root water uptake \change{based on}{approximated by} Darcy's law, replacing the previous empirical transpiration partitioning heuristic. This provides the means to vary, for example, the mean depth of extraction with changing soil water conditions.
 \item Representation of a range of water use strategies (e.g. isohydricity and anisohydricity), improving the connection between plant carbon allocation and water availability.
 \item Modeling vegetation water potential allows improved connection to remote sensing observations of vegetation water status (Vegetation Optical Depth) \citep{konings2016}. 
 \end{enumerate}
@@ -276,7 +276,7 @@ This study develops a new parameterization of water stress (Sections \ref{sect:f
     \subsubsection{PHS Root Water Uptake}
         \label{sect:phsrwu}
     
-    PHS implements an alternative to the SMS heuristic approach for root water uptake, using a mechanistic representation following Darcy's Law.
+    PHS implements an alternative to the SMS heuristic approach for root water uptake, using a mechanistic representation utilizing Darcy's Law \add{for flow through porous media to approximate the vegetation water fluxes}.
     Instead of a constant parameter ($\psi_c$) defining the gradient in water potential within the SMS hydraulic analogy (Equation \ref{kb}), PHS implements a physical model of vegetation water potential (details in Section \ref{sect:vwp}).
     The water flux from a given soil layer is driven by the gradient between soil potential ($\psi_{\text{soil},i}$) and the water potential in the root collar ($\psi_{\text{root}}$), 
     after accounting for the effects of gravity ($\rho g z_i$, where $z_i$ is the soil layer depth).
@@ -294,7 +294,7 @@ This study develops a new parameterization of water stress (Sections \ref{sect:f
 
 \subsubsection{Modeling Vegetation Water Potential}
 \label{sect:vwp}
-  The PHS model within CLM5 uses Darcy's law to model the flow of water through the SPAC, which can be represented with an electrical circuit analogy (Figure \ref{circuit}).
+  The PHS model within CLM5 uses Darcy's law to \change{model}{approximate} the flow of water through the SPAC, which can be represented with an electrical circuit analogy (Figure \ref{circuit}).
   PHS solves for vegetation water potential along the path from soil-to-atmosphere.
   Vegetation water supply and demand are both coupled to vegetation water potential, as described in the previous two sections.
   The solution for vegetation water potential is the set of values that matches supply with demand, maintaining water balance across each of the vegetation water potential nodes.
@@ -319,7 +319,7 @@ This study develops a new parameterization of water stress (Sections \ref{sect:f
 %Water Supply
     \subsubsection{Water supply}
     \label{sect:supply}
-    Water supply is modeled via Darcy's Law, where flux of water ($q$) is the product of the path hydraulic conductance ($k$) and the gradient in water potential ($\psi_2-\psi_1$) after accounting for gravitational potential ($\rho g \Delta z$).  
+    Water supply is modeled via Darcy's Law, where the flux of water ($q$) is the product of the path hydraulic conductance ($k$) and the gradient in water potential ($\psi_2-\psi_1$) after accounting for gravitational potential ($\rho g \Delta z$).  
     Equation \ref{eq:darcy} represents the flow from a generic node 1 to node 2. 
     
      \begin{linenomath*}
@@ -661,6 +661,7 @@ Likewise, the constraint at $\psi_c$ precludes the representation of hydraulic r
 
     In this study, we have implemented plant hydraulic theory within CLM5, 
     using dynamic vegetation water potential to modulate leaf gas exchange and root water uptake.
+    \add{Darcy's Law, which is already used to model soil water movement in the CLM, offers a useful approximation for vegetation water fluxes} \citep{sperry1998}.
     PHS installs a model for predicting vegetation water potential by extending Darcy's Law through the vegetation substrate (Figure \ref{circuit}), 
     creating four new water potential prognostic variables ($\psi_{\text{root}}$, $\psi_{\text{stem}}$, $\psi_{\text{shade-leaf}}$, and $\psi_{\text{sun-leaf}}$).  
     The model is able to capture expected diurnal and seasonal dynamics of vegetation water potential, 
@@ -704,7 +705,7 @@ The PHS stress formulation will impart an increased sensitivity of GPP to rising
 
 PHS introduces dynamic vegetation water potential (Figure \ref{fig:vwp}), for the first time, into the default configuration of the CLM.
 Seasonally and diurnally dynamic leaf water potentials are observed in the field \citep{fisher2006}, adjusting to variations in soil water supply and transpiration demand.
-Dynamism in the gradient of water potential from soil-to-leaf, according to Darcy's Law, drives RWU.
+Dynamism in the gradient of water potential from soil-to-leaf, according to \change{Darcy's Law}{the Darcy's Law approximation of vegetation water fluxes}, drives RWU.
 This is especially important for partitioning the transpiration sink among soil layers with varying soil potential states \citep{jarvis2011}.
 A mechanistic representation of RWU with dynamic vegetation water potential allows for modeling a range of water use strategies, and/or testing hypotheses regarding such strategies on the ESM scale. One example is testing the effects of increasing carbon allocation to root biomass, which was not well-represented in previous versions of the CLM, because water availability depended on relative root fraction and would not respond to increase in absolute biomass. Another example is testing the effects of iso/anisohydry, which can be diagnosed from remote sensing observations \citep{konings2017a}, on leaf gas exchange and drought vulnerability. The spectrum of isohydric to anisohydric behavior, corresponding to highly regulated versus relatively unregulated leaf water potential, cannot be represented in previous versions of the model that do not model leaf water potential.
 Likewise, variation in hydraulic safety margin, which have been shown to correlate with drought sensitivity \citep{anderegg2018}, can now be represented in the model due to prognostic leaf water potential.
