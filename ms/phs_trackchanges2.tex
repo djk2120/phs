@@ -114,9 +114,8 @@ This study develops a new parameterization of water stress (Sections \ref{sect:f
 %Photosynthesis
 \subsection{Stomatal Conductance}
 \label{sect:gs}
-    CLM5 implements the Medlyn stomatal conductance model, which reconciles the empirical and optimal approaches to 
-    stomatal conductance \citep{medlyn2011}.
-    Such ``optimal'' stomatal conductance models serve to maximize photosynthesis relative to transpiration costs. 
+    CLM5 implements the Medlyn stomatal conductance model \citep{franks2018,medlyn2011}, which reconciles the empirical approach to modeling stomatal conductance with a carbon-water optimization framework \citep{cowan1977}.
+    \add{The} \cite{cowan1977} \add{optimization requires plants to maximize photosynthesis relative to transpiration costs, which the Medlyn model captures in an empirically tractable form (Equation 1).}
     Stomatal conductance of water ($g_s$) is directly related to net photosynthesis ($A_n$) 
     and inversely related to the square root of the vapor pressure deficit near the leaf surface ($\sqrt{D}$) and the concentration of CO$_2$ at the leaf surface ($C_a$).
     \begin{equation}
@@ -129,7 +128,10 @@ This study develops a new parameterization of water stress (Sections \ref{sect:f
     
     While maximizing assimilation relative to water transpiration costs, the Medlyn model does not 
     resolve concurrent limitations to stomatal conductance associated with declining soil water (such as in \cite{manzoni2013b}) or excessive xylem tension. 
-    To represent such water stress, and its impact on leaf-gas exchange, land surface models typically include a `water stress factor' (see Section \ref{sect:wsf}). 
+    To represent such water stress, and its impact on leaf-gas exchange, land surface models typically include a `water stress factor'.
+    \add{The PHS implementation follows this approach, using the Medlyn model to calculate stomatal conductance absent water stress, which is attenuated as leaf water potential declines (see Section} \ref{sect:wsf}).
+    \add{More recent stomatal conductance models eschew the} \cite{cowan1977} \add{optimization in favor of a framework to maximize carbon assimilation relative to hydraulic costs} \citep{wolf2016,sperry2017,anderegg2018b} \add{, which directly incorporate leaf water potential and hydraulic safety margin into the stomatal conductance formulation.
+    Such models do not require a water stress factor and should be tested for future versions of PHS.}
 
 \subsection{Photosynthesis}
 \label{sect:A}
@@ -198,7 +200,7 @@ This study develops a new parameterization of water stress (Sections \ref{sect:f
     \end{linenomath*} 
     
     In the SMS configuration, a heuristic function (based on $f_{w,\text{SMS}}$) is used to determine $q_i$.
-    Transpiration is partitioned among the soil layers based on the product of the root fraction and the wilting factor, which is then normalized by $f_{w,\text{SMS}}$ to satisfy Equation 5.
+    Transpiration is partitioned among the soil layers based on the product of the root fraction and the wilting factor, which is then normalized by $f_{w,\text{SMS}}$ to satisfy Equation 5. \add{Because the relative root fractions are used to partition transpiration, root water uptake is not connected to absolute root biomass. For example, if root biomass doubles in every soil layer, the relative root fractions do not change, with no impact on modeled soil water availability.}
     \begin{linenomath*}
     \begin{equation}
     \label{bt:4}
@@ -281,7 +283,7 @@ This study develops a new parameterization of water stress (Sections \ref{sect:f
     The water flux from a given soil layer is driven by the gradient between soil potential ($\psi_{\text{soil},i}$) and the water potential in the root collar ($\psi_{\text{root}}$), 
     after accounting for the effects of gravity ($\rho g z_i$, where $z_i$ is the soil layer depth).
     Hydraulic conductance across the soil and roots ($k_{sr}$) is modeled based on soil hydraulic properties and xylem vulnerability, 
-    accounting for both the path across the soil matrix and through the xylem conduits (details in Appendix B).
+    accounting for both the path across the soil matrix and through the xylem conduits. \add{Furthermore, in lieu of using relative root fraction (as in SMS), $k_{sr}$ depends on the root area index, an absolute measure of root abundance (details in Appendix B).}
     
     \begin{linenomath*}
     \begin{equation}
@@ -349,7 +351,9 @@ This study develops a new parameterization of water stress (Sections \ref{sect:f
      Parameterization based on $p_{50}$ aligns with the call for a transition to models that use a wider range of plant functional trait data in their parameterization \citep{anderegg2015a}. 
      The loss of xylem conductivity is based on lower terminal water potential ($\psi_1$) as is typical in other simplified models \citep{xu2016}, but 
      may underestimate the integrated loss of conductivity \citep{sperry2015}.
+     \add{This bias could underestimate hydraulic limits on gas exchange and/or affect parameter estimation (e.g. requiring lower $k_{\text{max}}$).}
      Likewise, xylem are assumed to symmetrically regain conductance, which may lead to underestimating persistent drought legacies \citep{anderegg2015b}.
+     \add{PHS was explicitly designed as a simplified model that can be refined in future versions.}
          
      PHS models root, stem, and leaf tissue conductances according to equation \ref{eq:vulnerability}. 
      The parameterization of $k_{\text{max}}$ varies by hydraulic segment (see details in Appendix B1). 
@@ -519,7 +523,7 @@ The difference in modeled transpiration between PHS and SMS derives from diverge
 \subsubsection{Transpiration, TFE}
 \label{sect:ttfe}
 PHS performs better than SMS at reproducing transpiration observations under TFE (Figure \ref{fig:t}b,d), \add{featuring a higher} R$^2$ \add{(0.45 vs. 0.3)} and \add{lower} RMSE \add{(0.74 vs. 1.03 mm/d)}.
-\add{Both models performed better under ambient rainfall conditions than with TFE.}
+\add{However, both implementations show degraded results under TFE as compared to ambient rainfall conditions.}
 Simulating the wet season under TFE (February-March-April) is prone to high transpiration biases in both models, where, in the observations, transpiration is reduced 32\% by TFE, as compared to modeled reductions of only 1.6 and 4\% for PHS and SMS, respectively.
 This may indicate that the models' sensitivity to soil potential declines are underestimated, or that water drains from the root zone more quickly after precipitation events than we represent with the soil hydraulic parameters (Figure \ref{fig:sm2}b,d).
 Difficulty reproducing the effect of TFE (and the influence of soil moisture on leaf gas exchange) at Caxiuan\~a has precedent in the literature \citep{restrepo2017,powell2013}.
@@ -607,11 +611,13 @@ resulting in lower dry season GPP.
 Observations show that GPP increases at Caxiuan\~a during the dry season \citep{restrepo2017}, suggesting that both model configurations, 
 but especially SMS, may overestimate dry season water stress under ambient conditions.  
 
+
 The modeled effect of TFE is relatively small during the wet season, with modeled reductions in GPP of 1.3 and 3.8\% for PHS and SMS, respectively.
 Based on transpiration observations, both configurations likely underestimate the TFE effect during the wet season (discussed further in Section \ref{sect:stress}).
 SMS imposes more dry season stress, resulting in a 63\% reduction of GPP due to TFE, compared to 44\% with PHS.
 Comparing dry season stress to the wet season, and TFE conditions to ambient, precipitation shortfalls (and the associate reductions in soil moisture) lead to less added stress under PHS as compared to SMS.
 However, PHS experiences more stress overall, due to the effects of xylem tension imposed by the gradient of water potential from soil-to-leaf (discussed further in Section \ref{sect:stress}).
+\add{The sensitivity of leaf gas exchange to transpiration demand is subject to the representation of hydraulic conductance in PHS, which requires caveats related to parametric uncertainty and hydraulic simplifications} (see Section \ref{sect:supply}).
 
 \subsection{Root water uptake (RWU)}
 
@@ -698,6 +704,7 @@ The PHS stress formulation will impart an increased sensitivity of GPP to rising
     As a result, soil moisture stress functions have been shown to contribute significant uncertainty to the carbon cycle in Earth System Models \citep{trugman2018}.
     Leaf water potential, on the other hand, is more easily measured in situ \citep{boyer1967} and has been shown to correlate with remote sensing products \citep{momen2017}, offering better observational constraints for PHS.
     Likewise, incorporating plant hydraulics may allow for improved model representation of tree mortality \citep{mcdowell2018}.
+    \add{The PHS formulation represents an incremental approach to coupling stomatal conductance to leaf water potential, inheriting the established CLM stomatal conductance model} \citep{franks2018}, \add{while adapting the water stress factor to depend on leaf water potential. This could be refined in future versions of PHS, incorporating recent work that directly incorporates leaf water potential within the stomatal optimization} \citep{wolf2016,sperry2017,anderegg2018b}.
 
     
 \subsection{Structural improvements in modeling root water uptake}
@@ -815,7 +822,7 @@ PHS simulates substantial HR at our test site, both upwards and downwards (Figur
     \begin{itemize}
         \item PHS models water stress ($f_w$) as a sigmoidal function of leaf water potential, which is used to attenuate $V_{\text{cmax}}$
         \item Stress attenuation of $V_{\text{cmax}}$ was also utilized in CLM4.5/SMS, which allowed for easier comparison between model versions
-        \item Several other approaches have been described in the literature, and future research is needed to elucidate water stress dynamics and mechanisms
+        \item \change{Several other approaches have been described in the literature, and future research is needed to elucidate water stress dynamics and mechanisms}{However, significant uncertainty exists in coupling the PHS water stress factor to the Medlyn stomatal conductance model, which could be resolved in future versions by recent work that directly incorporates hydraulic limitations within the stomatal optimization} \citep{wolf2016,sperry2017,anderegg2018b}.
     \end{itemize}
     \item Increased model complexity
     \begin{itemize}
